@@ -1,41 +1,43 @@
 # Project 1 
+### Table of Contents
+ - [Background](#background)
+ - [Desired Functionality](#desired-functionality)
+ - [Architecture](#architecture)
+ - [Implementation Tips](#implementation-tips)
+
+## Background
 
 ### Intended usage
 
-This is an optional, introductory project as an introduction to ROS2 and C++. If you already have knowledge on ROS and/or C++, feel free to skip this and dive right into other projects!
+This is an optional, introductory project as an introduction to ROS2. If you already have knowledge on implementing ROS2 nodes and interfaces, feel free to skip this and dive right into other projects!
 
+### Problem Statement
 
-### Background
+You are a software engineer at the company Concert Ticket Sale Platform Enterprises Incorporated Ltd & Co. 
 
-You are a software engineer at a large Concert Ticket Trading Platform. 
-
-You are tasked with developing a synchrnous, reponsive application that responds to price updates and execute orders.
+You are tasked with developing a synchronous application that allows music artists to host ticket sales for their concerts, while allowing customers to buy tickets.
 
 Given the following intended results, create the application using ROS2.
 
 ### Prerequisite
 
-If you don't have ROS2 Jazzy installed (lower verisons are fine, but we will be using Jazzy for our robots so this is a good chance to upgrade them), please install them [here](https://docs.ros.org/en/jazzy/Installation.html).
+It's recommended for Wolverbot members to use the team docker container, which you can install [here](https://github.com/WolverBot-Kickers/ros2_base)).
 
-Alternatively, if you wish to use a Docker container, you can get them [here](https://github.com/shinlee03/ros2_base).
+Alternatively, you can use your own installation of [ROS2 Jazzy](https://docs.ros.org/en/jazzy/Installation.html).
+
+It is recommended that you complete this project using C++, as this is the most common language which will be used in the team. However, if you are not comfortable with it or know that Python will be more useful to you, use Python instead.
 
 ### Resources
 
-The project will involve multiple ROS2 concepts, such as nodes, topics, services, etc. If you have any questions, [Official Documentation](https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html) is a great resource, or you can ask any of the leads for more info!
+The project will involve multiple ROS2 concepts, such as nodes, topics, services, etc. If you have any questions, [Official Documentation](https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html) is a great resource, or you can ask the leads for more info!
 
+## Desired Functionality
 
-## Desired Functionalities
+Your application should have a central **'Server'**, which makes the existing concert information public to customers, handles requests from customers to buy tickets, and handles requests from musicians to hold a ticket sale for an upcoming concert, giving them updates on the sale as it occurs.
 
-Your application should have a **price 'publisher'**, which publishes (or send service requests of) price updates.
+The **Customer** 'client' should be able to receive concert information from the server and display it to the customer, and also allow an interface for the customer to submit a purchase request for a concert ticket.
 
-The **price update executor** should take those requests/listen to price updates and apply the changes to the respective concerts.
-
-Similarly, the **order publisher** should publish (or send service requests of) purchase or sell orders.
-
-The **order executor** should then receive and execute those orders.
-
-You should have a separate node that keeps track of the account balances for each customer. Assume each customers' account balance starts at **1000**. 
-
+Similarly, the **Musician** 'client' should be able to provide concert information and desired ticket information to call on the server to host a ticket sale. When the ticket sale completes, they should be informed of the final sale revenue and statistics. Additionally, they should be able to receive updates on the ticket sale when it is ongoing.
 
 ## Architecture
 
@@ -44,41 +46,71 @@ You should have a separate node that keeps track of the account balances for eac
 
 ### Nodes
 
-You may use any number of nodes as you want, but the following set of nodes may be helpful:
+It is highly recommended that you use the following configuration of nodes:
 
-- Price Update Publisher/Input Node
-- Price Update Execution Node
-- Order Publisher/Input Node
-- Order Execution Node
-- Account Balance Node
-
-You can either use a publisher/subscriber model or a service model to connect the nodes.
-
-Additionally, you will want to keep a separate set of node(s) to create an Account Balance Update [action](https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html).
+- Server node
+- Customer node
+- Musician node
 
 ### Interfaces
 
-The **Price Update** interface should contain the following:
-```
-uint id
-uint concertId
-int delta
-```
+This project requires you to create custom interfaces for Topics, Services, and Actions. Refer [here](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html) about creating custom interfaces.
 
-The **Transaction** interface should contain the following:
+The **ConcertInfo** Topic will be published by the Server, with Customer as a subscriber. It should contain the following:
+```
+uint concert_count
+string[] concert_names
+string[] musn_names
+string[] concert_dates
+uint[] prices
+uint[] remng_durations
+```
+In this interface, the information for a single concert will correspond to the same index in every array/vector. For instance, the information for some concert named `Concert0` would be at `concert_names[0], musn_names[0], concert_dates[0], etc`.
+
+The **BuyTicket** Service interface will be called by Customer to the Server in order to buy a ticket. It should contain the following:
 ```
 uint id
-uint accountId
-uint concertId
+uint customer_id
+uint concert_id
 uint quantity
-bool sell
+uint price
+---
+bool success
+string message
 ```
 
-The **Balance** interface should contain the following:
-
+The **TicketSale** Action interface will be called by Musician as a client to a Server in order to begin a ticket sale. It should contain the following:
 ```
 uint id
-uint accountId
+uint musn_id
+string musn_name
+string concert_name
+string concert_date
+uint quantity
+uint price
+uint duration
+---
+uint sale_count
+uint revenue
+---
+uint sale_count
+uint revenue
+uint remng_duration
 ```
+If you haven't learned actions yet, please implement TicketSale as 2 services: one for Musician to request a ticket sale from Server, and one from Server to Musician to signal the end of a ticket sale.
 
-Refer [here](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html) about creating custom interfaces.
+
+## Implementation Tips
+
+### User/Testing interface
+You can use the standard input/output of C++ or Python to create a rudimentary user interface, such as submitting a BuyTicket request from Client with a keypress, or displaying the received ConcertInfo at some interval. Alternatives are to use ROS2 services or a GUI library, but implementing those is a lot of extra work, and not recommended.
+
+### Approach
+In my opinion, this is the order of the easiest to hardest parts of this project:
+ - Skeleton/dummy nodes
+ - Implement ConcertInfo topic and relevant functionality in Server and Customer (use dummy concert data)
+ - Implement BuyTicket service and relevant functionality in Server and Customer
+ - Implement TicketSale as services and relevant functionality in Server and Musician
+ - Implement TicketSale as an action and relevant functionality in Server and Musician
+
+Please prioritize an order of learning/implementation that allows you to make the most out of this project! After all, this is an onboarding project to help you learn. Good luck!
