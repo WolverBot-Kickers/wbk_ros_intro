@@ -19,12 +19,14 @@ public:
             auto publish_msg = [this]() -> void {
                 auto message = more_interfaces::msg::ConcertInfo();
 
+                
+
                 message.concert_count = 1;
-                message.concert_names[0] = "Last Stand";
-                message.musn_names[0] = "Bobby the Bob";
-                message.concert_dates[0] = "Sep. 23, 2023";
-                message.prices[0] = 269;
-                message.remng_durations[0] = 99;
+                message.concert_names.push_back("Last Stand");
+                message.musn_names.push_back("Bobby the Bob");
+                message.concert_dates.push_back("Sep. 23, 2023");
+                message.prices.push_back(269);
+                message.remng_durations.push_back(99);
 
                 std::cout << "Publishing First Concert\nConcert Number:" << message.concert_count <<
                 "  Concert Name: " << message.concert_names[0] << 
