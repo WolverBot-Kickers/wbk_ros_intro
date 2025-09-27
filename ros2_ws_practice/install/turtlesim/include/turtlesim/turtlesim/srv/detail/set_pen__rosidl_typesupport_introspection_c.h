@@ -1,0 +1,1 @@
+/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h

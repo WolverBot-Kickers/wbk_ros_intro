@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.so" "TARGETS" "turtlesim_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/turtlesim")

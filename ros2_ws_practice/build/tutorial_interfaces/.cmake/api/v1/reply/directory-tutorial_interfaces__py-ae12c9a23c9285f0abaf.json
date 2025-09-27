@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interfaces__py",
+		"source" : "/home/wbk/wbk_ros_intro/ros2_ws_practice/build/tutorial_interfaces/tutorial_interfaces__py"
+	}
+}

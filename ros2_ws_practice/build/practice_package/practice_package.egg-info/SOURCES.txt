@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+practice_package/__init__.py
+practice_package.egg-info/PKG-INFO
+practice_package.egg-info/SOURCES.txt
+practice_package.egg-info/dependency_links.txt
+practice_package.egg-info/requires.txt
+practice_package.egg-info/top_level.txt
+practice_package.egg-info/zip-safe
+resource/practice_package

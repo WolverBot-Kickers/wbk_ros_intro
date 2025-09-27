@@ -1,0 +1,29 @@
+[0.766s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws_practice/src/py_pubsub': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build install --record /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.947s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.947s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.947s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.947s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.947s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.968s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.969s] adding license file 'LICENSE'
+[0.969s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.969s] copying py_pubsub/publisher_member_function.py -> /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build/lib/py_pubsub
+[0.970s] copying py_pubsub/subscriber_member_function.py -> /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build/lib/py_pubsub
+[0.970s] running install
+[0.975s] running install_lib
+[0.986s] copying /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.986s] copying /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.986s] byte-compiling /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[0.987s] byte-compiling /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[0.988s] running install_data
+[0.988s] running install_egg_info
+[0.999s] removing '/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.999s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.000s] running install_scripts
+[1.078s] Installing listener script to /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/py_pubsub
+[1.079s] Installing talker script to /home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/py_pubsub
+[1.079s] writing list of installed files to '/home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/install.log'
+[1.104s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws_practice/src/py_pubsub' returned '0': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/build install --record /home/wbk/wbk_ros_intro/ros2_ws_practice/build/py_pubsub/install.log --single-version-externally-managed install_data

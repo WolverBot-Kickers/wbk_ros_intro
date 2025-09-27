@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws_practice/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_srvcli:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/practice_package:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/my_package:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws_practice/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws_practice/install/tutorial_interfaces
+[0.208s] -- The C compiler identification is GNU 13.3.0
+[0.322s] -- The CXX compiler identification is GNU 13.3.0
+[0.344s] -- Detecting C compiler ABI info
+[0.443s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.563s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.714s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.834s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.945s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.011s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.029s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.138s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.156s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.160s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[1.160s]   rosidl_generate_interfaces() must be called before ament_package()
+[1.160s] Call Stack (most recent call first):
+[1.160s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[1.160s] 
+[1.160s] [0m
+[1.160s] -- Configuring incomplete, errors occurred!
+[1.164s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws_practice/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_srvcli:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/py_pubsub:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/practice_package:/home/wbk/wbk_ros_intro/ros2_ws_practice/install/my_package:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws_practice/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws_practice/install/tutorial_interfaces

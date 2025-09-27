@@ -1,0 +1,1 @@
+/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
