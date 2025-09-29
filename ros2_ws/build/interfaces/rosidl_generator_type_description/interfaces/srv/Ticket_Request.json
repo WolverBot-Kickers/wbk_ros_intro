@@ -4,7 +4,47 @@
       "type_name": "interfaces/srv/Ticket_Request",
       "fields": [
         {
+          "name": "id",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "customer_id",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "concert_id",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
           "name": "quantity",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "price",
           "type": {
             "type_id": 8,
             "capacity": 0,
@@ -20,7 +60,7 @@
   "type_hashes": [
     {
       "type_name": "interfaces/srv/Ticket_Request",
-      "hash_string": "RIHS01_07de102b45b027eea2379058ad19e03cf1e6815b5471f0570f52219616f92046"
+      "hash_string": "RIHS01_851cb1c989d9c97294c960c016bfa348c72dd39865993120eef9a13a1f3f7c0e"
     }
   ]
 }

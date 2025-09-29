@@ -23,7 +23,11 @@ extern "C"
 /// Struct defined in srv/Ticket in the package interfaces.
 typedef struct interfaces__srv__Ticket_Request
 {
+  int64_t id;
+  int64_t customer_id;
+  int64_t concert_id;
   int64_t quantity;
+  int64_t price;
 } interfaces__srv__Ticket_Request;
 
 // Struct for a sequence of interfaces__srv__Ticket_Request.
@@ -38,11 +42,15 @@ typedef struct interfaces__srv__Ticket_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'message'
+#include "rosidl_runtime_c/string.h"
+
 /// Struct defined in srv/Ticket in the package interfaces.
 typedef struct interfaces__srv__Ticket_Response
 {
-  int64_t tickets_left;
   bool success;
+  rosidl_runtime_c__String message;
 } interfaces__srv__Ticket_Response;
 
 // Struct for a sequence of interfaces__srv__Ticket_Response.

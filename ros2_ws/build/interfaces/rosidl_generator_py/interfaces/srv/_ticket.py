@@ -62,17 +62,29 @@ class Ticket_Request(metaclass=Metaclass_Ticket_Request):
     """Message class 'Ticket_Request'."""
 
     __slots__ = [
+        '_id',
+        '_customer_id',
+        '_concert_id',
         '_quantity',
+        '_price',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
+        'id': 'int64',
+        'customer_id': 'int64',
+        'concert_id': 'int64',
         'quantity': 'int64',
+        'price': 'int64',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
@@ -85,7 +97,11 @@ class Ticket_Request(metaclass=Metaclass_Ticket_Request):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.id = kwargs.get('id', int())
+        self.customer_id = kwargs.get('customer_id', int())
+        self.concert_id = kwargs.get('concert_id', int())
         self.quantity = kwargs.get('quantity', int())
+        self.price = kwargs.get('price', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -117,7 +133,15 @@ class Ticket_Request(metaclass=Metaclass_Ticket_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.id != other.id:
+            return False
+        if self.customer_id != other.customer_id:
+            return False
+        if self.concert_id != other.concert_id:
+            return False
         if self.quantity != other.quantity:
+            return False
+        if self.price != other.price:
             return False
         return True
 
@@ -125,6 +149,51 @@ class Ticket_Request(metaclass=Metaclass_Ticket_Request):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property  # noqa: A003
+    def id(self):  # noqa: A003
+        """Message field 'id'."""
+        return self._id
+
+    @id.setter  # noqa: A003
+    def id(self, value):  # noqa: A003
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'id' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'id' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._id = value
+
+    @builtins.property
+    def customer_id(self):
+        """Message field 'customer_id'."""
+        return self._customer_id
+
+    @customer_id.setter
+    def customer_id(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'customer_id' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'customer_id' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._customer_id = value
+
+    @builtins.property
+    def concert_id(self):
+        """Message field 'concert_id'."""
+        return self._concert_id
+
+    @concert_id.setter
+    def concert_id(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'concert_id' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'concert_id' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._concert_id = value
 
     @builtins.property
     def quantity(self):
@@ -140,6 +209,21 @@ class Ticket_Request(metaclass=Metaclass_Ticket_Request):
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
                 "The 'quantity' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._quantity = value
+
+    @builtins.property
+    def price(self):
+        """Message field 'price'."""
+        return self._price
+
+    @price.setter
+    def price(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'price' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'price' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._price = value
 
 
 # Import statements for member types
@@ -196,21 +280,21 @@ class Ticket_Response(metaclass=Metaclass_Ticket_Response):
     """Message class 'Ticket_Response'."""
 
     __slots__ = [
-        '_tickets_left',
         '_success',
+        '_message',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'tickets_left': 'int64',
         'success': 'boolean',
+        'message': 'string',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -222,8 +306,8 @@ class Ticket_Response(metaclass=Metaclass_Ticket_Response):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.tickets_left = kwargs.get('tickets_left', int())
         self.success = kwargs.get('success', bool())
+        self.message = kwargs.get('message', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -255,9 +339,9 @@ class Ticket_Response(metaclass=Metaclass_Ticket_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.tickets_left != other.tickets_left:
-            return False
         if self.success != other.success:
+            return False
+        if self.message != other.message:
             return False
         return True
 
@@ -265,21 +349,6 @@ class Ticket_Response(metaclass=Metaclass_Ticket_Response):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
-
-    @builtins.property
-    def tickets_left(self):
-        """Message field 'tickets_left'."""
-        return self._tickets_left
-
-    @tickets_left.setter
-    def tickets_left(self, value):
-        if self._check_fields:
-            assert \
-                isinstance(value, int), \
-                "The 'tickets_left' field must be of type 'int'"
-            assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'tickets_left' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._tickets_left = value
 
     @builtins.property
     def success(self):
@@ -293,6 +362,19 @@ class Ticket_Response(metaclass=Metaclass_Ticket_Response):
                 isinstance(value, bool), \
                 "The 'success' field must be of type 'bool'"
         self._success = value
+
+    @builtins.property
+    def message(self):
+        """Message field 'message'."""
+        return self._message
+
+    @message.setter
+    def message(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, str), \
+                "The 'message' field must be of type 'str'"
+        self._message = value
 
 
 # Import statements for member types

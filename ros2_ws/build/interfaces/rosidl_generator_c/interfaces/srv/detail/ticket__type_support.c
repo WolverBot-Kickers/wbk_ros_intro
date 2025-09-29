@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "interfaces/srv/detail/ticket__type_support.h"
+#include "interfaces/srv/detail/ticket__struct.h"
 #include "interfaces/srv/detail/ticket__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "interfaces/srv/detail/ticket__struct.h"
-#include "interfaces/srv/detail/ticket__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

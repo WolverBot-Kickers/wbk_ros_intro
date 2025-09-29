@@ -28,10 +28,38 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: id
+  {
+    out << "id: ";
+    rosidl_generator_traits::value_to_yaml(msg.id, out);
+    out << ", ";
+  }
+
+  // member: customer_id
+  {
+    out << "customer_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.customer_id, out);
+    out << ", ";
+  }
+
+  // member: concert_id
+  {
+    out << "concert_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.concert_id, out);
+    out << ", ";
+  }
+
   // member: quantity
   {
     out << "quantity: ";
     rosidl_generator_traits::value_to_yaml(msg.quantity, out);
+    out << ", ";
+  }
+
+  // member: price
+  {
+    out << "price: ";
+    rosidl_generator_traits::value_to_yaml(msg.price, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -40,6 +68,36 @@ inline void to_block_style_yaml(
   const Ticket_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: id
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "id: ";
+    rosidl_generator_traits::value_to_yaml(msg.id, out);
+    out << "\n";
+  }
+
+  // member: customer_id
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "customer_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.customer_id, out);
+    out << "\n";
+  }
+
+  // member: concert_id
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "concert_id: ";
+    rosidl_generator_traits::value_to_yaml(msg.concert_id, out);
+    out << "\n";
+  }
+
   // member: quantity
   {
     if (indentation > 0) {
@@ -47,6 +105,16 @@ inline void to_block_style_yaml(
     }
     out << "quantity: ";
     rosidl_generator_traits::value_to_yaml(msg.quantity, out);
+    out << "\n";
+  }
+
+  // member: price
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "price: ";
+    rosidl_generator_traits::value_to_yaml(msg.price, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -120,17 +188,17 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: tickets_left
-  {
-    out << "tickets_left: ";
-    rosidl_generator_traits::value_to_yaml(msg.tickets_left, out);
-    out << ", ";
-  }
-
   // member: success
   {
     out << "success: ";
     rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << ", ";
+  }
+
+  // member: message
+  {
+    out << "message: ";
+    rosidl_generator_traits::value_to_yaml(msg.message, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -139,16 +207,6 @@ inline void to_block_style_yaml(
   const Ticket_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: tickets_left
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "tickets_left: ";
-    rosidl_generator_traits::value_to_yaml(msg.tickets_left, out);
-    out << "\n";
-  }
-
   // member: success
   {
     if (indentation > 0) {
@@ -156,6 +214,16 @@ inline void to_block_style_yaml(
     }
     out << "success: ";
     rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << "\n";
+  }
+
+  // member: message
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "message: ";
+    rosidl_generator_traits::value_to_yaml(msg.message, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -206,11 +274,11 @@ inline const char * name<interfaces::srv::Ticket_Response>()
 
 template<>
 struct has_fixed_size<interfaces::srv::Ticket_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<interfaces::srv::Ticket_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<interfaces::srv::Ticket_Response>

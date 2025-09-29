@@ -36,8 +36,20 @@ cdr_serialize(
   const interfaces::srv::Ticket_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: id
+  cdr << ros_message.id;
+
+  // Member: customer_id
+  cdr << ros_message.customer_id;
+
+  // Member: concert_id
+  cdr << ros_message.concert_id;
+
   // Member: quantity
   cdr << ros_message.quantity;
+
+  // Member: price
+  cdr << ros_message.price;
 
   return true;
 }
@@ -48,8 +60,20 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interfaces::srv::Ticket_Request & ros_message)
 {
+  // Member: id
+  cdr >> ros_message.id;
+
+  // Member: customer_id
+  cdr >> ros_message.customer_id;
+
+  // Member: concert_id
+  cdr >> ros_message.concert_id;
+
   // Member: quantity
   cdr >> ros_message.quantity;
+
+  // Member: price
+  cdr >> ros_message.price;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -68,9 +92,37 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
+  // Member: id
+  {
+    size_t item_size = sizeof(ros_message.id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: customer_id
+  {
+    size_t item_size = sizeof(ros_message.customer_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: concert_id
+  {
+    size_t item_size = sizeof(ros_message.concert_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Member: quantity
   {
     size_t item_size = sizeof(ros_message.quantity);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: price
+  {
+    size_t item_size = sizeof(ros_message.price);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -98,7 +150,35 @@ max_serialized_size_Ticket_Request(
   full_bounded = true;
   is_plain = true;
 
+  // Member: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // Member: customer_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // Member: concert_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
   // Member: quantity
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // Member: price
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
@@ -114,7 +194,7 @@ max_serialized_size_Ticket_Request(
     using DataType = interfaces::srv::Ticket_Request;
     is_plain =
       (
-      offsetof(DataType, quantity) +
+      offsetof(DataType, price) +
       last_member_size
       ) == ret_val;
   }
@@ -128,8 +208,20 @@ cdr_serialize_key(
   const interfaces::srv::Ticket_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: id
+  cdr << ros_message.id;
+
+  // Member: customer_id
+  cdr << ros_message.customer_id;
+
+  // Member: concert_id
+  cdr << ros_message.concert_id;
+
   // Member: quantity
   cdr << ros_message.quantity;
+
+  // Member: price
+  cdr << ros_message.price;
 
   return true;
 }
@@ -147,9 +239,37 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
+  // Member: id
+  {
+    size_t item_size = sizeof(ros_message.id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: customer_id
+  {
+    size_t item_size = sizeof(ros_message.customer_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: concert_id
+  {
+    size_t item_size = sizeof(ros_message.concert_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Member: quantity
   {
     size_t item_size = sizeof(ros_message.quantity);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: price
+  {
+    size_t item_size = sizeof(ros_message.price);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -176,7 +296,39 @@ max_serialized_size_key_Ticket_Request(
   full_bounded = true;
   is_plain = true;
 
+  // Member: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: customer_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: concert_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   // Member: quantity
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: price
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
@@ -192,7 +344,7 @@ max_serialized_size_key_Ticket_Request(
     using DataType = interfaces::srv::Ticket_Request;
     is_plain =
       (
-      offsetof(DataType, quantity) +
+      offsetof(DataType, price) +
       last_member_size
       ) == ret_val;
   }
@@ -338,11 +490,11 @@ cdr_serialize(
   const interfaces::srv::Ticket_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: tickets_left
-  cdr << ros_message.tickets_left;
-
   // Member: success
   cdr << (ros_message.success ? true : false);
+
+  // Member: message
+  cdr << ros_message.message;
 
   return true;
 }
@@ -353,15 +505,15 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interfaces::srv::Ticket_Response & ros_message)
 {
-  // Member: tickets_left
-  cdr >> ros_message.tickets_left;
-
   // Member: success
   {
     uint8_t tmp;
     cdr >> tmp;
     ros_message.success = tmp ? true : false;
   }
+
+  // Member: message
+  cdr >> ros_message.message;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -380,19 +532,17 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: tickets_left
-  {
-    size_t item_size = sizeof(ros_message.tickets_left);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   // Member: success
   {
     size_t item_size = sizeof(ros_message.success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
+  // Member: message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.message.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -417,18 +567,22 @@ max_serialized_size_Ticket_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: tickets_left
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
   // Member: success
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+  // Member: message
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -439,7 +593,7 @@ max_serialized_size_Ticket_Response(
     using DataType = interfaces::srv::Ticket_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }
@@ -453,11 +607,11 @@ cdr_serialize_key(
   const interfaces::srv::Ticket_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: tickets_left
-  cdr << ros_message.tickets_left;
-
   // Member: success
   cdr << (ros_message.success ? true : false);
+
+  // Member: message
+  cdr << ros_message.message;
 
   return true;
 }
@@ -475,19 +629,17 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: tickets_left
-  {
-    size_t item_size = sizeof(ros_message.tickets_left);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   // Member: success
   {
     size_t item_size = sizeof(ros_message.success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
+  // Member: message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.message.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -511,19 +663,23 @@ max_serialized_size_key_Ticket_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: tickets_left
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
   // Member: success
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: message
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -534,7 +690,7 @@ max_serialized_size_key_Ticket_Response(
     using DataType = interfaces::srv::Ticket_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }

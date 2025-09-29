@@ -16,7 +16,11 @@ interfaces__srv__Ticket_Request__init(interfaces__srv__Ticket_Request * msg)
   if (!msg) {
     return false;
   }
+  // id
+  // customer_id
+  // concert_id
   // quantity
+  // price
   return true;
 }
 
@@ -26,7 +30,11 @@ interfaces__srv__Ticket_Request__fini(interfaces__srv__Ticket_Request * msg)
   if (!msg) {
     return;
   }
+  // id
+  // customer_id
+  // concert_id
   // quantity
+  // price
 }
 
 bool
@@ -35,8 +43,24 @@ interfaces__srv__Ticket_Request__are_equal(const interfaces__srv__Ticket_Request
   if (!lhs || !rhs) {
     return false;
   }
+  // id
+  if (lhs->id != rhs->id) {
+    return false;
+  }
+  // customer_id
+  if (lhs->customer_id != rhs->customer_id) {
+    return false;
+  }
+  // concert_id
+  if (lhs->concert_id != rhs->concert_id) {
+    return false;
+  }
   // quantity
   if (lhs->quantity != rhs->quantity) {
+    return false;
+  }
+  // price
+  if (lhs->price != rhs->price) {
     return false;
   }
   return true;
@@ -50,8 +74,16 @@ interfaces__srv__Ticket_Request__copy(
   if (!input || !output) {
     return false;
   }
+  // id
+  output->id = input->id;
+  // customer_id
+  output->customer_id = input->customer_id;
+  // concert_id
+  output->concert_id = input->concert_id;
   // quantity
   output->quantity = input->quantity;
+  // price
+  output->price = input->price;
   return true;
 }
 
@@ -235,14 +267,22 @@ interfaces__srv__Ticket_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `message`
+#include "rosidl_runtime_c/string_functions.h"
+
 bool
 interfaces__srv__Ticket_Response__init(interfaces__srv__Ticket_Response * msg)
 {
   if (!msg) {
     return false;
   }
-  // tickets_left
   // success
+  // message
+  if (!rosidl_runtime_c__String__init(&msg->message)) {
+    interfaces__srv__Ticket_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -252,8 +292,9 @@ interfaces__srv__Ticket_Response__fini(interfaces__srv__Ticket_Response * msg)
   if (!msg) {
     return;
   }
-  // tickets_left
   // success
+  // message
+  rosidl_runtime_c__String__fini(&msg->message);
 }
 
 bool
@@ -262,12 +303,14 @@ interfaces__srv__Ticket_Response__are_equal(const interfaces__srv__Ticket_Respon
   if (!lhs || !rhs) {
     return false;
   }
-  // tickets_left
-  if (lhs->tickets_left != rhs->tickets_left) {
-    return false;
-  }
   // success
   if (lhs->success != rhs->success) {
+    return false;
+  }
+  // message
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->message), &(rhs->message)))
+  {
     return false;
   }
   return true;
@@ -281,10 +324,14 @@ interfaces__srv__Ticket_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // tickets_left
-  output->tickets_left = input->tickets_left;
   // success
   output->success = input->success;
+  // message
+  if (!rosidl_runtime_c__String__copy(
+      &(input->message), &(output->message)))
+  {
+    return false;
+  }
   return true;
 }
 

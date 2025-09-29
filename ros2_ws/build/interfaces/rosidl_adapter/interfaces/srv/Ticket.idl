@@ -6,12 +6,20 @@
 module interfaces {
   module srv {
     struct Ticket_Request {
+      int64 id;
+
+      int64 customer_id;
+
+      int64 concert_id;
+
       int64 quantity;
+
+      int64 price;
     };
     struct Ticket_Response {
-      int64 tickets_left;
-
       boolean success;
+
+      string message;
     };
   };
 };

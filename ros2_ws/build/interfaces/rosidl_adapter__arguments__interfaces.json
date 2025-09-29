@@ -2,6 +2,7 @@
   "package_name": "interfaces",
   "non_idl_tuples": [
     "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces:msg/Num.msg",
+    "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces:msg/ConcertInfo.msg",
     "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces:srv/Ticket.srv"
   ]
 }

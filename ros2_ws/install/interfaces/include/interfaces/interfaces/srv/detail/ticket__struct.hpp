@@ -41,7 +41,11 @@ struct Ticket_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->id = 0ll;
+      this->customer_id = 0ll;
+      this->concert_id = 0ll;
       this->quantity = 0ll;
+      this->price = 0ll;
     }
   }
 
@@ -51,20 +55,60 @@ struct Ticket_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->id = 0ll;
+      this->customer_id = 0ll;
+      this->concert_id = 0ll;
       this->quantity = 0ll;
+      this->price = 0ll;
     }
   }
 
   // field types and members
+  using _id_type =
+    int64_t;
+  _id_type id;
+  using _customer_id_type =
+    int64_t;
+  _customer_id_type customer_id;
+  using _concert_id_type =
+    int64_t;
+  _concert_id_type concert_id;
   using _quantity_type =
     int64_t;
   _quantity_type quantity;
+  using _price_type =
+    int64_t;
+  _price_type price;
 
   // setters for named parameter idiom
+  Type & set__id(
+    const int64_t & _arg)
+  {
+    this->id = _arg;
+    return *this;
+  }
+  Type & set__customer_id(
+    const int64_t & _arg)
+  {
+    this->customer_id = _arg;
+    return *this;
+  }
+  Type & set__concert_id(
+    const int64_t & _arg)
+  {
+    this->concert_id = _arg;
+    return *this;
+  }
   Type & set__quantity(
     const int64_t & _arg)
   {
     this->quantity = _arg;
+    return *this;
+  }
+  Type & set__price(
+    const int64_t & _arg)
+  {
+    this->price = _arg;
     return *this;
   }
 
@@ -110,7 +154,19 @@ struct Ticket_Request_
   // comparison operators
   bool operator==(const Ticket_Request_ & other) const
   {
+    if (this->id != other.id) {
+      return false;
+    }
+    if (this->customer_id != other.customer_id) {
+      return false;
+    }
+    if (this->concert_id != other.concert_id) {
+      return false;
+    }
     if (this->quantity != other.quantity) {
+      return false;
+    }
+    if (this->price != other.price) {
       return false;
     }
     return true;
@@ -155,41 +211,41 @@ struct Ticket_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->tickets_left = 0ll;
       this->success = false;
+      this->message = "";
     }
   }
 
   explicit Ticket_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : message(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->tickets_left = 0ll;
       this->success = false;
+      this->message = "";
     }
   }
 
   // field types and members
-  using _tickets_left_type =
-    int64_t;
-  _tickets_left_type tickets_left;
   using _success_type =
     bool;
   _success_type success;
+  using _message_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _message_type message;
 
   // setters for named parameter idiom
-  Type & set__tickets_left(
-    const int64_t & _arg)
-  {
-    this->tickets_left = _arg;
-    return *this;
-  }
   Type & set__success(
     const bool & _arg)
   {
     this->success = _arg;
+    return *this;
+  }
+  Type & set__message(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->message = _arg;
     return *this;
   }
 
@@ -235,10 +291,10 @@ struct Ticket_Response_
   // comparison operators
   bool operator==(const Ticket_Response_ & other) const
   {
-    if (this->tickets_left != other.tickets_left) {
+    if (this->success != other.success) {
       return false;
     }
-    if (this->success != other.success) {
+    if (this->message != other.message) {
       return false;
     }
     return true;

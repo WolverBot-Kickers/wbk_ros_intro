@@ -31,7 +31,61 @@ void interfaces__srv__Ticket_Request__rosidl_typesupport_introspection_c__Ticket
   interfaces__srv__Ticket_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember interfaces__srv__Ticket_Request__rosidl_typesupport_introspection_c__Ticket_Request_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember interfaces__srv__Ticket_Request__rosidl_typesupport_introspection_c__Ticket_Request_message_member_array[5] = {
+  {
+    "id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interfaces__srv__Ticket_Request, id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "customer_id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interfaces__srv__Ticket_Request, customer_id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "concert_id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interfaces__srv__Ticket_Request, concert_id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
   {
     "quantity",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
@@ -49,13 +103,31 @@ static rosidl_typesupport_introspection_c__MessageMember interfaces__srv__Ticket
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "price",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interfaces__srv__Ticket_Request, price),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers interfaces__srv__Ticket_Request__rosidl_typesupport_introspection_c__Ticket_Request_message_members = {
   "interfaces__srv",  // message namespace
   "Ticket_Request",  // message name
-  1,  // number of fields
+  5,  // number of fields
   sizeof(interfaces__srv__Ticket_Request),
   false,  // has_any_key_member_
   interfaces__srv__Ticket_Request__rosidl_typesupport_introspection_c__Ticket_Request_message_member_array,  // message members
@@ -105,6 +177,10 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "interfaces/srv/detail/ticket__struct.h"
 
 
+// Include directives for member types
+// Member `message`
+#include "rosidl_runtime_c/string_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -126,24 +202,6 @@ void interfaces__srv__Ticket_Response__rosidl_typesupport_introspection_c__Ticke
 
 static rosidl_typesupport_introspection_c__MessageMember interfaces__srv__Ticket_Response__rosidl_typesupport_introspection_c__Ticket_Response_message_member_array[2] = {
   {
-    "tickets_left",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(interfaces__srv__Ticket_Response, tickets_left),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
     "success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
@@ -153,6 +211,24 @@ static rosidl_typesupport_introspection_c__MessageMember interfaces__srv__Ticket
     0,  // array size
     false,  // is upper bound
     offsetof(interfaces__srv__Ticket_Response, success),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "message",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interfaces__srv__Ticket_Response, message),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

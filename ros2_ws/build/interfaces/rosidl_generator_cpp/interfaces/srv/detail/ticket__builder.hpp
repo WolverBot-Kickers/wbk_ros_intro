@@ -24,16 +24,80 @@ namespace srv
 namespace builder
 {
 
+class Init_Ticket_Request_price
+{
+public:
+  explicit Init_Ticket_Request_price(::interfaces::srv::Ticket_Request & msg)
+  : msg_(msg)
+  {}
+  ::interfaces::srv::Ticket_Request price(::interfaces::srv::Ticket_Request::_price_type arg)
+  {
+    msg_.price = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::interfaces::srv::Ticket_Request msg_;
+};
+
 class Init_Ticket_Request_quantity
 {
 public:
-  Init_Ticket_Request_quantity()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_Ticket_Request_quantity(::interfaces::srv::Ticket_Request & msg)
+  : msg_(msg)
   {}
-  ::interfaces::srv::Ticket_Request quantity(::interfaces::srv::Ticket_Request::_quantity_type arg)
+  Init_Ticket_Request_price quantity(::interfaces::srv::Ticket_Request::_quantity_type arg)
   {
     msg_.quantity = std::move(arg);
-    return std::move(msg_);
+    return Init_Ticket_Request_price(msg_);
+  }
+
+private:
+  ::interfaces::srv::Ticket_Request msg_;
+};
+
+class Init_Ticket_Request_concert_id
+{
+public:
+  explicit Init_Ticket_Request_concert_id(::interfaces::srv::Ticket_Request & msg)
+  : msg_(msg)
+  {}
+  Init_Ticket_Request_quantity concert_id(::interfaces::srv::Ticket_Request::_concert_id_type arg)
+  {
+    msg_.concert_id = std::move(arg);
+    return Init_Ticket_Request_quantity(msg_);
+  }
+
+private:
+  ::interfaces::srv::Ticket_Request msg_;
+};
+
+class Init_Ticket_Request_customer_id
+{
+public:
+  explicit Init_Ticket_Request_customer_id(::interfaces::srv::Ticket_Request & msg)
+  : msg_(msg)
+  {}
+  Init_Ticket_Request_concert_id customer_id(::interfaces::srv::Ticket_Request::_customer_id_type arg)
+  {
+    msg_.customer_id = std::move(arg);
+    return Init_Ticket_Request_concert_id(msg_);
+  }
+
+private:
+  ::interfaces::srv::Ticket_Request msg_;
+};
+
+class Init_Ticket_Request_id
+{
+public:
+  Init_Ticket_Request_id()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_Ticket_Request_customer_id id(::interfaces::srv::Ticket_Request::_id_type arg)
+  {
+    msg_.id = std::move(arg);
+    return Init_Ticket_Request_customer_id(msg_);
   }
 
 private:
@@ -51,7 +115,7 @@ template<>
 inline
 auto build<::interfaces::srv::Ticket_Request>()
 {
-  return interfaces::srv::builder::Init_Ticket_Request_quantity();
+  return interfaces::srv::builder::Init_Ticket_Request_id();
 }
 
 }  // namespace interfaces
@@ -66,15 +130,15 @@ namespace srv
 namespace builder
 {
 
-class Init_Ticket_Response_success
+class Init_Ticket_Response_message
 {
 public:
-  explicit Init_Ticket_Response_success(::interfaces::srv::Ticket_Response & msg)
+  explicit Init_Ticket_Response_message(::interfaces::srv::Ticket_Response & msg)
   : msg_(msg)
   {}
-  ::interfaces::srv::Ticket_Response success(::interfaces::srv::Ticket_Response::_success_type arg)
+  ::interfaces::srv::Ticket_Response message(::interfaces::srv::Ticket_Response::_message_type arg)
   {
-    msg_.success = std::move(arg);
+    msg_.message = std::move(arg);
     return std::move(msg_);
   }
 
@@ -82,16 +146,16 @@ private:
   ::interfaces::srv::Ticket_Response msg_;
 };
 
-class Init_Ticket_Response_tickets_left
+class Init_Ticket_Response_success
 {
 public:
-  Init_Ticket_Response_tickets_left()
+  Init_Ticket_Response_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Ticket_Response_success tickets_left(::interfaces::srv::Ticket_Response::_tickets_left_type arg)
+  Init_Ticket_Response_message success(::interfaces::srv::Ticket_Response::_success_type arg)
   {
-    msg_.tickets_left = std::move(arg);
-    return Init_Ticket_Response_success(msg_);
+    msg_.success = std::move(arg);
+    return Init_Ticket_Response_message(msg_);
   }
 
 private:
@@ -109,7 +173,7 @@ template<>
 inline
 auto build<::interfaces::srv::Ticket_Response>()
 {
-  return interfaces::srv::builder::Init_Ticket_Response_tickets_left();
+  return interfaces::srv::builder::Init_Ticket_Response_success();
 }
 
 }  // namespace interfaces

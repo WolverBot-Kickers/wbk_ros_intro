@@ -48,9 +48,29 @@ bool cdr_serialize_interfaces__srv__Ticket_Request(
   const interfaces__srv__Ticket_Request * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: id
+  {
+    cdr << ros_message->id;
+  }
+
+  // Field name: customer_id
+  {
+    cdr << ros_message->customer_id;
+  }
+
+  // Field name: concert_id
+  {
+    cdr << ros_message->concert_id;
+  }
+
   // Field name: quantity
   {
     cdr << ros_message->quantity;
+  }
+
+  // Field name: price
+  {
+    cdr << ros_message->price;
   }
 
   return true;
@@ -61,9 +81,29 @@ bool cdr_deserialize_interfaces__srv__Ticket_Request(
   eprosima::fastcdr::Cdr & cdr,
   interfaces__srv__Ticket_Request * ros_message)
 {
+  // Field name: id
+  {
+    cdr >> ros_message->id;
+  }
+
+  // Field name: customer_id
+  {
+    cdr >> ros_message->customer_id;
+  }
+
+  // Field name: concert_id
+  {
+    cdr >> ros_message->concert_id;
+  }
+
   // Field name: quantity
   {
     cdr >> ros_message->quantity;
+  }
+
+  // Field name: price
+  {
+    cdr >> ros_message->price;
   }
 
   return true;
@@ -84,9 +124,37 @@ size_t get_serialized_size_interfaces__srv__Ticket_Request(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: id
+  {
+    size_t item_size = sizeof(ros_message->id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: customer_id
+  {
+    size_t item_size = sizeof(ros_message->customer_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: concert_id
+  {
+    size_t item_size = sizeof(ros_message->concert_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Field name: quantity
   {
     size_t item_size = sizeof(ros_message->quantity);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: price
+  {
+    size_t item_size = sizeof(ros_message->price);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -113,7 +181,39 @@ size_t max_serialized_size_interfaces__srv__Ticket_Request(
   full_bounded = true;
   is_plain = true;
 
+  // Field name: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: customer_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: concert_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   // Field name: quantity
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: price
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
@@ -130,7 +230,7 @@ size_t max_serialized_size_interfaces__srv__Ticket_Request(
     using DataType = interfaces__srv__Ticket_Request;
     is_plain =
       (
-      offsetof(DataType, quantity) +
+      offsetof(DataType, price) +
       last_member_size
       ) == ret_val;
   }
@@ -142,9 +242,29 @@ bool cdr_serialize_key_interfaces__srv__Ticket_Request(
   const interfaces__srv__Ticket_Request * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: id
+  {
+    cdr << ros_message->id;
+  }
+
+  // Field name: customer_id
+  {
+    cdr << ros_message->customer_id;
+  }
+
+  // Field name: concert_id
+  {
+    cdr << ros_message->concert_id;
+  }
+
   // Field name: quantity
   {
     cdr << ros_message->quantity;
+  }
+
+  // Field name: price
+  {
+    cdr << ros_message->price;
   }
 
   return true;
@@ -165,9 +285,37 @@ size_t get_serialized_size_key_interfaces__srv__Ticket_Request(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: id
+  {
+    size_t item_size = sizeof(ros_message->id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: customer_id
+  {
+    size_t item_size = sizeof(ros_message->customer_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: concert_id
+  {
+    size_t item_size = sizeof(ros_message->concert_id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
   // Field name: quantity
   {
     size_t item_size = sizeof(ros_message->quantity);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: price
+  {
+    size_t item_size = sizeof(ros_message->price);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -192,7 +340,39 @@ size_t max_serialized_size_key_interfaces__srv__Ticket_Request(
 
   full_bounded = true;
   is_plain = true;
+  // Field name: id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: customer_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: concert_id
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   // Field name: quantity
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: price
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint64_t);
@@ -208,7 +388,7 @@ size_t max_serialized_size_key_interfaces__srv__Ticket_Request(
     using DataType = interfaces__srv__Ticket_Request;
     is_plain =
       (
-      offsetof(DataType, quantity) +
+      offsetof(DataType, price) +
       last_member_size
       ) == ret_val;
   }
@@ -337,6 +517,8 @@ extern "C"
 {
 #endif
 
+#include "rosidl_runtime_c/string.h"  // message
+#include "rosidl_runtime_c/string_functions.h"  // message
 
 // forward declare type support functions
 
@@ -349,14 +531,23 @@ bool cdr_serialize_interfaces__srv__Ticket_Response(
   const interfaces__srv__Ticket_Response * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: tickets_left
-  {
-    cdr << ros_message->tickets_left;
-  }
-
   // Field name: success
   {
     cdr << (ros_message->success ? true : false);
+  }
+
+  // Field name: message
+  {
+    const rosidl_runtime_c__String * str = &ros_message->message;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -367,16 +558,27 @@ bool cdr_deserialize_interfaces__srv__Ticket_Response(
   eprosima::fastcdr::Cdr & cdr,
   interfaces__srv__Ticket_Response * ros_message)
 {
-  // Field name: tickets_left
-  {
-    cdr >> ros_message->tickets_left;
-  }
-
   // Field name: success
   {
     uint8_t tmp;
     cdr >> tmp;
     ros_message->success = tmp ? true : false;
+  }
+
+  // Field name: message
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->message.data) {
+      rosidl_runtime_c__String__init(&ros_message->message);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->message,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'message'\n");
+      return false;
+    }
   }
 
   return true;
@@ -397,19 +599,17 @@ size_t get_serialized_size_interfaces__srv__Ticket_Response(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: tickets_left
-  {
-    size_t item_size = sizeof(ros_message->tickets_left);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   // Field name: success
   {
     size_t item_size = sizeof(ros_message->success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
+  // Field name: message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->message.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -433,19 +633,23 @@ size_t max_serialized_size_interfaces__srv__Ticket_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: tickets_left
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
   // Field name: success
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Field name: message
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
 
@@ -457,7 +661,7 @@ size_t max_serialized_size_interfaces__srv__Ticket_Response(
     using DataType = interfaces__srv__Ticket_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }
@@ -469,14 +673,23 @@ bool cdr_serialize_key_interfaces__srv__Ticket_Response(
   const interfaces__srv__Ticket_Response * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: tickets_left
-  {
-    cdr << ros_message->tickets_left;
-  }
-
   // Field name: success
   {
     cdr << (ros_message->success ? true : false);
+  }
+
+  // Field name: message
+  {
+    const rosidl_runtime_c__String * str = &ros_message->message;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -497,19 +710,17 @@ size_t get_serialized_size_key_interfaces__srv__Ticket_Response(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: tickets_left
-  {
-    size_t item_size = sizeof(ros_message->tickets_left);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
   // Field name: success
   {
     size_t item_size = sizeof(ros_message->success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
+  // Field name: message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->message.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -531,19 +742,23 @@ size_t max_serialized_size_key_interfaces__srv__Ticket_Response(
 
   full_bounded = true;
   is_plain = true;
-  // Field name: tickets_left
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
   // Field name: success
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Field name: message
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -554,7 +769,7 @@ size_t max_serialized_size_key_interfaces__srv__Ticket_Response(
     using DataType = interfaces__srv__Ticket_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }

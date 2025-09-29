@@ -4,9 +4,9 @@
       "type_name": "interfaces/srv/Ticket_Response",
       "fields": [
         {
-          "name": "tickets_left",
+          "name": "success",
           "type": {
-            "type_id": 8,
+            "type_id": 15,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -14,9 +14,9 @@
           "default_value": ""
         },
         {
-          "name": "success",
+          "name": "message",
           "type": {
-            "type_id": 15,
+            "type_id": 17,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -30,7 +30,7 @@
   "type_hashes": [
     {
       "type_name": "interfaces/srv/Ticket_Response",
-      "hash_string": "RIHS01_420ef74b935126942f1583fc8c514b3684c632c0385bb28947ac32778752c994"
+      "hash_string": "RIHS01_47ab22485c9624bcdbb33245b7bb47435433f4fa96a8aadf0bc89e99937b2ac3"
     }
   ]
 }

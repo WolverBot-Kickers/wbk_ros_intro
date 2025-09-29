@@ -1,5 +1,5 @@
 from interfaces.srv import Ticket
-from std_msgs.msg import Int64
+from interfaces.msg import ConcertInfo
 import rclpy
 from rclpy.node import Node
 
@@ -8,33 +8,81 @@ class SellTicketService(Node):
 
     def __init__(self):
         super().__init__('SellTicketService')
-        self.available_ticket = 100
+
+        # init concert ticket info
+        self.concert_count = 5
+        self.concert_names = ['coachella', 'lollapalooza', 'glastonbury', 'rock in rio', 'isle of wight']
+        self.musn_names = ['adele', 'bts', 'coldplay', 'taylor swift', 'ed sheeran']
+        self.concert_dates = ['2024-04-12', '2024-06-20', '2024-07-26', '2024-09-02', '2024-10-10']
+        self.prices = [300, 250, 400, 350, 450]
+        self.remng_durations = [30, 45, 25, 50, 20]
+        self.remg_ticket = [100, 150, 80, 200, 60]
+
 
         # create ticket selling service
         self.srv = self.create_service(Ticket, 'ticket', self.sell_ticket_callback)
 
         # create ticket information publisher
-        self.publisher_ = self.create_publisher(Int64, 'ticket_info', 10)
-        timer_period = 2  # seconds
+        self.publisher_ = self.create_publisher(ConcertInfo, 'ticket_info', 10)
+        timer_period = 5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
     def timer_callback(self):
-        msg = Int64()
-        msg.data = self.available_ticket
+        # update new remng durations
+        for i in range(self.concert_count):
+            if self.remng_durations[i] > 0:
+                self.remng_durations[i] -= 1
+
+        # construct concert info message
+        msg = ConcertInfo()
+        msg.concert_count = self.concert_count
+        msg.concert_names = self.concert_names
+        msg.musn_names = self.musn_names
+        msg.concert_dates = self.concert_dates
+        msg.prices = self.prices
+        msg.remng_durations = self.remng_durations
+        msg.remng_ticket = self.remg_ticket
+
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing Ticket Info: %d' % msg.data)
+        self.get_logger().info(f"[Topic] Published concert info: {msg.remng_durations} days left")
 
     def sell_ticket_callback(self, request, response):
-        self.get_logger().info('Incoming request\nnum: %d' % (request.quantity))
-        if self.available_ticket > 0:
-            self.available_ticket -= request.quantity
-            self.get_logger().info('The Remaining tickets: %d' % (self.available_ticket))
-            response.success = True
-        else:
-            self.get_logger().info('No tickets available')
-            response.success = False
+        id = request.id
+        concert_id = request.concert_id
+        customer_id = request.customer_id
+        quantity = request.quantity
+        price = request.price
 
-        response.tickets_left = self.available_ticket
+
+        if concert_id < 0 or concert_id >= self.concert_count:
+            self.get_logger().info('Invalid concert ID: %d' % (concert_id))
+            response.success = False
+            response.message = 'Invalid concert ID'
+            return response
+        
+        if price < self.prices[concert_id]:
+            self.get_logger().info('Insufficient price: %d, required: %d' % (price, self.prices[concert_id]))
+            response.success = False
+            response.message = 'Insufficient price'
+            return response
+        
+        if quantity <= 0:
+            self.get_logger().info('Invalid quantity: %d' % (quantity))
+            response.success = False
+            response.message = 'Invalid quantity'
+            return response
+        
+        if quantity > self.remg_ticket[concert_id]:
+            self.get_logger().info('Not enough tickets available. Requested: %d, Available: %d' % (quantity, self.remg_ticket[concert_id]))
+            response.success = False
+            response.message = 'Not enough tickets available'
+            return response
+
+        self.remg_ticket[concert_id] -= quantity
+        self.get_logger().info('Sold %d tickets for concert ID %d to customer ID %d' % (quantity, concert_id, customer_id))
+        response.success = True
+        response.message = 'Tickets purchased successfully'
+
         return response
 
 

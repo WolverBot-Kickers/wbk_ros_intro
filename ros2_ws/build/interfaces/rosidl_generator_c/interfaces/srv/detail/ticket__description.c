@@ -11,10 +11,10 @@ interfaces__srv__Ticket__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x00, 0xca, 0x03, 0x0d, 0x44, 0x3b, 0xa3, 0x67,
-      0x69, 0x10, 0xd6, 0xa6, 0xbe, 0xb9, 0x51, 0xfa,
-      0xb0, 0x5b, 0x65, 0xec, 0xef, 0x15, 0x69, 0xf2,
-      0xa6, 0xea, 0x93, 0x5d, 0x45, 0xf4, 0x10, 0x9e,
+      0x54, 0xaf, 0xd3, 0x29, 0x36, 0x7d, 0x37, 0xf4,
+      0x34, 0x9c, 0x38, 0x9a, 0x69, 0x01, 0xa8, 0x52,
+      0x7c, 0x45, 0x54, 0x9a, 0x1e, 0x1d, 0xf0, 0x58,
+      0xc7, 0xff, 0x34, 0x7d, 0xee, 0x70, 0x43, 0x6e,
     }};
   return &hash;
 }
@@ -26,10 +26,10 @@ interfaces__srv__Ticket_Request__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x07, 0xde, 0x10, 0x2b, 0x45, 0xb0, 0x27, 0xee,
-      0xa2, 0x37, 0x90, 0x58, 0xad, 0x19, 0xe0, 0x3c,
-      0xf1, 0xe6, 0x81, 0x5b, 0x54, 0x71, 0xf0, 0x57,
-      0x0f, 0x52, 0x21, 0x96, 0x16, 0xf9, 0x20, 0x46,
+      0x85, 0x1c, 0xb1, 0xc9, 0x89, 0xd9, 0xc9, 0x72,
+      0x94, 0xc9, 0x60, 0xc0, 0x16, 0xbf, 0xa3, 0x48,
+      0xc7, 0x2d, 0xd3, 0x98, 0x65, 0x99, 0x31, 0x20,
+      0xee, 0xf9, 0xa1, 0x3a, 0x1f, 0x3f, 0x7c, 0x0e,
     }};
   return &hash;
 }
@@ -41,10 +41,10 @@ interfaces__srv__Ticket_Response__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x42, 0x0e, 0xf7, 0x4b, 0x93, 0x51, 0x26, 0x94,
-      0x2f, 0x15, 0x83, 0xfc, 0x8c, 0x51, 0x4b, 0x36,
-      0x84, 0xc6, 0x32, 0xc0, 0x38, 0x5b, 0xb2, 0x89,
-      0x47, 0xac, 0x32, 0x77, 0x87, 0x52, 0xc9, 0x94,
+      0x47, 0xab, 0x22, 0x48, 0x5c, 0x96, 0x24, 0xbc,
+      0xdb, 0xb3, 0x32, 0x45, 0xb7, 0xbb, 0x47, 0x43,
+      0x54, 0x33, 0xf4, 0xfa, 0x96, 0xa8, 0xaa, 0xdf,
+      0x0b, 0xc8, 0x9e, 0x99, 0x93, 0x7b, 0x2a, 0xc3,
     }};
   return &hash;
 }
@@ -56,10 +56,10 @@ interfaces__srv__Ticket_Event__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x14, 0x01, 0x44, 0x7a, 0xf5, 0xde, 0x07, 0x81,
-      0xa5, 0x86, 0x3f, 0x5a, 0xaf, 0x50, 0x42, 0x90,
-      0xae, 0xf5, 0xa9, 0xee, 0x35, 0x20, 0x45, 0xa0,
-      0xd3, 0xc8, 0xa0, 0x2c, 0xaf, 0x99, 0xee, 0x00,
+      0xa6, 0xe7, 0x15, 0xcf, 0x0d, 0x06, 0xd3, 0x19,
+      0x1e, 0xb1, 0x7f, 0x2f, 0xe9, 0x49, 0xf1, 0xc5,
+      0xc4, 0x0c, 0x83, 0xe2, 0x32, 0x36, 0x57, 0x17,
+      0xd7, 0x2b, 0xba, 0x00, 0xa4, 0x92, 0x96, 0x0f,
     }};
   return &hash;
 }
@@ -68,8 +68,8 @@ interfaces__srv__Ticket_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "service_msgs/msg/detail/service_event_info__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
+#include "service_msgs/msg/detail/service_event_info__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -181,11 +181,55 @@ interfaces__srv__Ticket__get_type_description(
   return &description;
 }
 // Define type names, field names, and default values
+static char interfaces__srv__Ticket_Request__FIELD_NAME__id[] = "id";
+static char interfaces__srv__Ticket_Request__FIELD_NAME__customer_id[] = "customer_id";
+static char interfaces__srv__Ticket_Request__FIELD_NAME__concert_id[] = "concert_id";
 static char interfaces__srv__Ticket_Request__FIELD_NAME__quantity[] = "quantity";
+static char interfaces__srv__Ticket_Request__FIELD_NAME__price[] = "price";
 
 static rosidl_runtime_c__type_description__Field interfaces__srv__Ticket_Request__FIELDS[] = {
   {
+    {interfaces__srv__Ticket_Request__FIELD_NAME__id, 2, 2},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {interfaces__srv__Ticket_Request__FIELD_NAME__customer_id, 11, 11},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {interfaces__srv__Ticket_Request__FIELD_NAME__concert_id, 10, 10},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
     {interfaces__srv__Ticket_Request__FIELD_NAME__quantity, 8, 8},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {interfaces__srv__Ticket_Request__FIELD_NAME__price, 5, 5},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
       0,
@@ -205,7 +249,7 @@ interfaces__srv__Ticket_Request__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {interfaces__srv__Ticket_Request__TYPE_NAME, 29, 29},
-      {interfaces__srv__Ticket_Request__FIELDS, 1, 1},
+      {interfaces__srv__Ticket_Request__FIELDS, 5, 5},
     },
     {NULL, 0, 0},
   };
@@ -215,14 +259,14 @@ interfaces__srv__Ticket_Request__get_type_description(
   return &description;
 }
 // Define type names, field names, and default values
-static char interfaces__srv__Ticket_Response__FIELD_NAME__tickets_left[] = "tickets_left";
 static char interfaces__srv__Ticket_Response__FIELD_NAME__success[] = "success";
+static char interfaces__srv__Ticket_Response__FIELD_NAME__message[] = "message";
 
 static rosidl_runtime_c__type_description__Field interfaces__srv__Ticket_Response__FIELDS[] = {
   {
-    {interfaces__srv__Ticket_Response__FIELD_NAME__tickets_left, 12, 12},
+    {interfaces__srv__Ticket_Response__FIELD_NAME__success, 7, 7},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT64,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_BOOLEAN,
       0,
       0,
       {NULL, 0, 0},
@@ -230,9 +274,9 @@ static rosidl_runtime_c__type_description__Field interfaces__srv__Ticket_Respons
     {NULL, 0, 0},
   },
   {
-    {interfaces__srv__Ticket_Response__FIELD_NAME__success, 7, 7},
+    {interfaces__srv__Ticket_Response__FIELD_NAME__message, 7, 7},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_BOOLEAN,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_STRING,
       0,
       0,
       {NULL, 0, 0},
@@ -342,10 +386,14 @@ interfaces__srv__Ticket_Event__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
+  "int64 id\n"
+  "int64 customer_id\n"
+  "int64 concert_id\n"
   "int64 quantity\n"
+  "int64 price\n"
   "---\n"
-  "int64 tickets_left\n"
-  "bool success";
+  "bool success\n"
+  "string message";
 
 static char srv_encoding[] = "srv";
 static char implicit_encoding[] = "implicit";
@@ -360,7 +408,7 @@ interfaces__srv__Ticket__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {interfaces__srv__Ticket__TYPE_NAME, 21, 21},
     {srv_encoding, 3, 3},
-    {toplevel_type_raw_source, 50, 50},
+    {toplevel_type_raw_source, 102, 102},
   };
   return &source;
 }

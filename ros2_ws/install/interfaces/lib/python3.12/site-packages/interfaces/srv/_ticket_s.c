@@ -50,6 +50,33 @@ bool interfaces__srv__ticket__request__convert_from_py(PyObject * _pymsg, void *
     assert(strncmp("interfaces.srv._ticket.Ticket_Request", full_classname_dest, 37) == 0);
   }
   interfaces__srv__Ticket_Request * ros_message = _ros_message;
+  {  // id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "id");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->id = PyLong_AsLongLong(field);
+    Py_DECREF(field);
+  }
+  {  // customer_id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "customer_id");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->customer_id = PyLong_AsLongLong(field);
+    Py_DECREF(field);
+  }
+  {  // concert_id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "concert_id");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->concert_id = PyLong_AsLongLong(field);
+    Py_DECREF(field);
+  }
   {  // quantity
     PyObject * field = PyObject_GetAttrString(_pymsg, "quantity");
     if (!field) {
@@ -57,6 +84,15 @@ bool interfaces__srv__ticket__request__convert_from_py(PyObject * _pymsg, void *
     }
     assert(PyLong_Check(field));
     ros_message->quantity = PyLong_AsLongLong(field);
+    Py_DECREF(field);
+  }
+  {  // price
+    PyObject * field = PyObject_GetAttrString(_pymsg, "price");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->price = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -81,11 +117,55 @@ PyObject * interfaces__srv__ticket__request__convert_to_py(void * raw_ros_messag
     }
   }
   interfaces__srv__Ticket_Request * ros_message = (interfaces__srv__Ticket_Request *)raw_ros_message;
+  {  // id
+    PyObject * field = NULL;
+    field = PyLong_FromLongLong(ros_message->id);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "id", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // customer_id
+    PyObject * field = NULL;
+    field = PyLong_FromLongLong(ros_message->customer_id);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "customer_id", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // concert_id
+    PyObject * field = NULL;
+    field = PyLong_FromLongLong(ros_message->concert_id);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "concert_id", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // quantity
     PyObject * field = NULL;
     field = PyLong_FromLongLong(ros_message->quantity);
     {
       int rc = PyObject_SetAttrString(_pymessage, "quantity", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // price
+    PyObject * field = NULL;
+    field = PyLong_FromLongLong(ros_message->price);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "price", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -110,6 +190,9 @@ PyObject * interfaces__srv__ticket__request__convert_to_py(void * raw_ros_messag
 // #include "interfaces/srv/detail/ticket__struct.h"
 // already included above
 // #include "interfaces/srv/detail/ticket__functions.h"
+
+#include "rosidl_runtime_c/string.h"
+#include "rosidl_runtime_c/string_functions.h"
 
 
 ROSIDL_GENERATOR_C_EXPORT
@@ -145,15 +228,6 @@ bool interfaces__srv__ticket__response__convert_from_py(PyObject * _pymsg, void 
     assert(strncmp("interfaces.srv._ticket.Ticket_Response", full_classname_dest, 38) == 0);
   }
   interfaces__srv__Ticket_Response * ros_message = _ros_message;
-  {  // tickets_left
-    PyObject * field = PyObject_GetAttrString(_pymsg, "tickets_left");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->tickets_left = PyLong_AsLongLong(field);
-    Py_DECREF(field);
-  }
   {  // success
     PyObject * field = PyObject_GetAttrString(_pymsg, "success");
     if (!field) {
@@ -161,6 +235,21 @@ bool interfaces__srv__ticket__response__convert_from_py(PyObject * _pymsg, void 
     }
     assert(PyBool_Check(field));
     ros_message->success = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // message
+    PyObject * field = PyObject_GetAttrString(_pymsg, "message");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->message, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
 
@@ -185,22 +274,28 @@ PyObject * interfaces__srv__ticket__response__convert_to_py(void * raw_ros_messa
     }
   }
   interfaces__srv__Ticket_Response * ros_message = (interfaces__srv__Ticket_Response *)raw_ros_message;
-  {  // tickets_left
+  {  // success
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->tickets_left);
+    field = PyBool_FromLong(ros_message->success ? 1 : 0);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "tickets_left", field);
+      int rc = PyObject_SetAttrString(_pymessage, "success", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // success
+  {  // message
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->success ? 1 : 0);
+    field = PyUnicode_DecodeUTF8(
+      ros_message->message.data,
+      strlen(ros_message->message.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "success", field);
+      int rc = PyObject_SetAttrString(_pymessage, "message", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

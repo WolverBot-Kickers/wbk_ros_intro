@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -13,6 +12,10 @@ resource/service_client
 service_client/__init__.py
 service_client/client_node.py
 service_client/server_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+service_client.egg-info/PKG-INFO
+service_client.egg-info/SOURCES.txt
+service_client.egg-info/dependency_links.txt
+service_client.egg-info/entry_points.txt
+service_client.egg-info/requires.txt
+service_client.egg-info/top_level.txt
+service_client.egg-info/zip-safe

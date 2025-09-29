@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__cpp"
+  "rosidl_generator_cpp/interfaces/msg/concert_info.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/concert_info__builder.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/concert_info__struct.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/concert_info__traits.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/concert_info__type_support.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/num__builder.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/num__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/num__traits.hpp"

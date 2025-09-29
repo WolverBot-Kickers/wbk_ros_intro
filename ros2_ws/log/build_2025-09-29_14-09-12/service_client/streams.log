@@ -1,0 +1,26 @@
+[0.728s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/build/service_client:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_client build --build-base /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build install --record /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log --single-version-externally-managed install_data
+[0.957s] running egg_info
+[0.969s] writing ../../build/service_client/service_client.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/service_client/service_client.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/service_client/service_client.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/service_client/service_client.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/service_client/service_client.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/service_client/service_client.egg-info/SOURCES.txt'
+[0.994s] adding license file 'LICENSE'
+[0.994s] writing manifest file '../../build/service_client/service_client.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] copying service_client/client_node.py -> /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build/lib/service_client
+[0.994s] running install
+[1.001s] running install_lib
+[1.012s] copying /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build/lib/service_client/client_node.py -> /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client
+[1.014s] byte-compiling /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client/client_node.py to client_node.cpython-312.pyc
+[1.015s] running install_data
+[1.016s] running install_egg_info
+[1.032s] removing '/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info' (and everything under it)
+[1.032s] Copying ../../build/service_client/service_client.egg-info to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info
+[1.032s] running install_scripts
+[1.135s] Installing client_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[1.135s] Installing server_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[1.135s] writing list of installed files to '/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log'
+[1.167s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client' returned '0': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/build/service_client:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_client build --build-base /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build install --record /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log --single-version-externally-managed install_data

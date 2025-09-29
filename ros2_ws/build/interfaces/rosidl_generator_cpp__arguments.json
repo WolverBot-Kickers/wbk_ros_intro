@@ -4,6 +4,7 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/Num.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/ConcertInfo.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/Ticket.idl"
   ],
   "ros_interface_dependencies": [
@@ -94,6 +95,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/Num.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/ConcertInfo.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/Ticket.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
@@ -163,6 +165,7 @@
   ],
   "type_description_tuples": [
     "msg/Num.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/msg/Num.json",
+    "msg/ConcertInfo.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/msg/ConcertInfo.json",
     "srv/Ticket.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/srv/Ticket.json"
   ]
 }

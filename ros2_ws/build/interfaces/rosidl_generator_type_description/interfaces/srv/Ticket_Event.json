@@ -65,7 +65,47 @@
         "type_name": "interfaces/srv/Ticket_Request",
         "fields": [
           {
+            "name": "id",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "customer_id",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "concert_id",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
             "name": "quantity",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "price",
             "type": {
               "type_id": 8,
               "capacity": 0,
@@ -80,9 +120,9 @@
         "type_name": "interfaces/srv/Ticket_Response",
         "fields": [
           {
-            "name": "tickets_left",
+            "name": "success",
             "type": {
-              "type_id": 8,
+              "type_id": 15,
               "capacity": 0,
               "string_capacity": 0,
               "nested_type_name": ""
@@ -90,9 +130,9 @@
             "default_value": ""
           },
           {
-            "name": "success",
+            "name": "message",
             "type": {
-              "type_id": 15,
+              "type_id": 17,
               "capacity": 0,
               "string_capacity": 0,
               "nested_type_name": ""
@@ -151,7 +191,7 @@
   "type_hashes": [
     {
       "type_name": "interfaces/srv/Ticket_Event",
-      "hash_string": "RIHS01_1401447af5de0781a5863f5aaf504290aef5a9ee352045a0d3c8a02caf99ee00"
+      "hash_string": "RIHS01_a6e715cf0d06d3191eb17f2fe949f1c5c40c83e232365717d72bba00a492960f"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -159,11 +199,11 @@
     },
     {
       "type_name": "interfaces/srv/Ticket_Request",
-      "hash_string": "RIHS01_07de102b45b027eea2379058ad19e03cf1e6815b5471f0570f52219616f92046"
+      "hash_string": "RIHS01_851cb1c989d9c97294c960c016bfa348c72dd39865993120eef9a13a1f3f7c0e"
     },
     {
       "type_name": "interfaces/srv/Ticket_Response",
-      "hash_string": "RIHS01_420ef74b935126942f1583fc8c514b3684c632c0385bb28947ac32778752c994"
+      "hash_string": "RIHS01_47ab22485c9624bcdbb33245b7bb47435433f4fa96a8aadf0bc89e99937b2ac3"
     },
     {
       "type_name": "service_msgs/msg/ServiceEventInfo",

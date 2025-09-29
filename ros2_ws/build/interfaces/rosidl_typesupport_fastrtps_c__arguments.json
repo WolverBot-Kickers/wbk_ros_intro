@@ -4,6 +4,7 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/Num.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/ConcertInfo.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/Ticket.idl"
   ],
   "ros_interface_dependencies": [
@@ -83,6 +84,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/Num.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/ConcertInfo.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/Ticket.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
