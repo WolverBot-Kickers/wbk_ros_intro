@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "interfaces/msg/detail/concert_info__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "interfaces/msg/detail/concert_info__type_support.h"
 #include "interfaces/msg/detail/concert_info__functions.h"
+#include "interfaces/msg/detail/concert_info__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "interfaces/msg/detail/concert_info__struct.h"
 
 #ifdef __cplusplus
 extern "C"

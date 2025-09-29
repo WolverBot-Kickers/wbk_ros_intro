@@ -11,6 +11,7 @@ setup.py
 resource/service_client
 service_client/__init__.py
 service_client/client_node.py
+service_client/msn_client_node.py
 service_client/server_node.py
 service_client.egg-info/PKG-INFO
 service_client.egg-info/SOURCES.txt

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Ticket.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Ticket_Request {
+      int64 id;
+
+      int64 customer_id;
+
+      int64 concert_id;
+
+      int64 quantity;
+
+      int64 price;
+    };
+    struct Ticket_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

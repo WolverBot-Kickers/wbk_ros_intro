@@ -81,6 +81,11 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/ticket__b
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/ticket__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/ticket__traits.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/ticket__type_support.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/ticket_sale.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__type_support.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -105,6 +110,7 @@ rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/rosidl_generat
 rosidl_generator_cpp/interfaces/msg/num.hpp: rosidl_adapter/interfaces/msg/Num.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: rosidl_adapter/interfaces/msg/ConcertInfo.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: rosidl_adapter/interfaces/srv/Ticket.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: rosidl_adapter/interfaces/action/TicketSale.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -170,6 +176,11 @@ rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/std_msgs/msg/U
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/interfaces/msg/num.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -215,10 +226,30 @@ rosidl_generator_cpp/interfaces/srv/detail/ticket__traits.hpp: rosidl_generator_
 rosidl_generator_cpp/interfaces/srv/detail/ticket__type_support.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/ticket__type_support.hpp
 
+rosidl_generator_cpp/interfaces/action/ticket_sale.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/ticket_sale.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/ticket_sale__builder.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/ticket_sale__builder.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/ticket_sale__struct.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/ticket_sale__struct.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/ticket_sale__traits.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/ticket_sale__traits.hpp
+
+rosidl_generator_cpp/interfaces/action/detail/ticket_sale__type_support.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/ticket_sale__type_support.hpp
+
 rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/interfaces/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 interfaces__cpp: CMakeFiles/interfaces__cpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/ticket_sale__type_support.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/action/ticket_sale.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/concert_info.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/concert_info__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/concert_info__struct.hpp

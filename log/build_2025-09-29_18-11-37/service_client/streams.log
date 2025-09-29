@@ -1,0 +1,50 @@
+[1.361s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client': AMENT_PREFIX_PATH=/home/wbk/wbk_ros_intro/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wbk/wbk_ros_intro/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/wbk/wbk_ros_intro/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wbk/wbk_ros_intro/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/service_client build --build-base /home/wbk/wbk_ros_intro/build/service_client/build install --record /home/wbk/wbk_ros_intro/build/service_client/install.log --single-version-externally-managed install_data
+[1.678s] running egg_info
+[1.679s] creating ../../../build/service_client/service_client.egg-info
+[1.705s] writing ../../../build/service_client/service_client.egg-info/PKG-INFO
+[1.705s] writing dependency_links to ../../../build/service_client/service_client.egg-info/dependency_links.txt
+[1.706s] writing entry points to ../../../build/service_client/service_client.egg-info/entry_points.txt
+[1.706s] writing requirements to ../../../build/service_client/service_client.egg-info/requires.txt
+[1.707s] writing top-level names to ../../../build/service_client/service_client.egg-info/top_level.txt
+[1.708s] writing manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+[1.763s] reading manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+[1.763s] adding license file 'LICENSE'
+[1.765s] writing manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+[1.765s] running build
+[1.765s] running build_py
+[1.766s] creating /home/wbk/wbk_ros_intro/build/service_client/build
+[1.766s] creating /home/wbk/wbk_ros_intro/build/service_client/build/lib
+[1.766s] creating /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+[1.767s] copying service_client/msn_client_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+[1.768s] copying service_client/client_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+[1.769s] copying service_client/__init__.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+[1.769s] copying service_client/server_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+[1.770s] running install
+[1.782s] running install_lib
+[1.802s] creating /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+[1.803s] copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/msn_client_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+[1.803s] copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/client_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+[1.804s] copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/__init__.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+[1.804s] copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/server_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+[1.804s] byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/msn_client_node.py to msn_client_node.cpython-312.pyc
+[1.806s] byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/client_node.py to client_node.cpython-312.pyc
+[1.807s] byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/__init__.py to __init__.cpython-312.pyc
+[1.807s] byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/server_node.py to server_node.cpython-312.pyc
+[1.807s] running install_data
+[1.808s] creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index
+[1.808s]   File "/home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/server_node.py", line 57
+[1.808s]     self.get_logger().info(f"Received goal request 
+[1.808s]                            ^
+[1.808s] SyntaxError: unterminated f-string literal (detected at line 57)
+[1.809s] 
+[1.809s] creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index
+[1.809s] creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index/packages
+[1.809s] copying resource/service_client -> /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index/packages
+[1.809s] copying package.xml -> /home/wbk/wbk_ros_intro/install/service_client/share/service_client
+[1.809s] running install_egg_info
+[1.838s] Copying ../../../build/service_client/service_client.egg-info to /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info
+[1.840s] running install_scripts
+[1.998s] Installing client_node script to /home/wbk/wbk_ros_intro/install/service_client/lib/service_client
+[1.999s] Installing server_node script to /home/wbk/wbk_ros_intro/install/service_client/lib/service_client
+[2.000s] writing list of installed files to '/home/wbk/wbk_ros_intro/build/service_client/install.log'
+[2.053s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client' returned '0': AMENT_PREFIX_PATH=/home/wbk/wbk_ros_intro/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wbk/wbk_ros_intro/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/wbk/wbk_ros_intro/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wbk/wbk_ros_intro/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/service_client build --build-base /home/wbk/wbk_ros_intro/build/service_client/build install --record /home/wbk/wbk_ros_intro/build/service_client/install.log --single-version-externally-managed install_data

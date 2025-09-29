@@ -1,3 +1,5 @@
+action/TicketSale.action
+action/TicketSale.idl
 msg/ConcertInfo.idl
 msg/ConcertInfo.msg
 msg/Num.idl

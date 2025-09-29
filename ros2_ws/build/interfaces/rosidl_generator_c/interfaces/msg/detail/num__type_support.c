@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "interfaces/msg/detail/num__type_support.h"
 #include "interfaces/msg/detail/num__struct.h"
+#include "interfaces/msg/detail/num__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/num__functions.h"
 

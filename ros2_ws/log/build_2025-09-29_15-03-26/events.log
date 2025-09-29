@@ -1,0 +1,425 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'service_client'}
+[0.000544] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000717] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.015746] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.016770] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.017629] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': '2709669c7162', 'GIT_ASKPASS': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/helpers/browser.sh', 'HOME': '/home/wbk', 'OLDPWD': '/home/wbk/wbk_ros_intro', 'TERM_PROGRAM_VERSION': '1.104.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f68b36f4-6882-4896-9642-cd1a228698c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e78cea02-a619-48d9-846d-7cec90004e96.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wbk/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/home/wbk/.gnupg/S.gpg-agent"]', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2e271615a6.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://roscore:11311', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099877] (-) TimerEvent: {}
+[0.122844] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.150454] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.200115] (-) TimerEvent: {}
+[0.243163] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.294487] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.300251] (-) TimerEvent: {}
+[0.304625] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.320640] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.336442] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.388326] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.398629] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.400367] (-) TimerEvent: {}
+[0.500903] (-) TimerEvent: {}
+[0.601289] (-) TimerEvent: {}
+[0.701828] (-) TimerEvent: {}
+[0.726936] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.802043] (-) TimerEvent: {}
+[0.902410] (-) TimerEvent: {}
+[0.959814] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002573] (-) TimerEvent: {}
+[1.049968] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.052684] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.102691] (-) TimerEvent: {}
+[1.202995] (-) TimerEvent: {}
+[1.303530] (-) TimerEvent: {}
+[1.353368] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.383869] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.403635] (-) TimerEvent: {}
+[1.406306] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.408689] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.413298] (interfaces) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.478412] (interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.491746] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces\n'}
+[1.503808] (-) TimerEvent: {}
+[1.530456] (interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.545785] (interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.603967] (-) TimerEvent: {}
+[1.704415] (-) TimerEvent: {}
+[1.705080] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.716548] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.716924] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.717227] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.739154] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__rosidl_generator_type_description\n'}
+[1.750202] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.751893] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.752996] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.761351] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.780636] (interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.804552] (-) TimerEvent: {}
+[1.905051] (-) TimerEvent: {}
+[2.005606] (-) TimerEvent: {}
+[2.106157] (-) TimerEvent: {}
+[2.175651] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[2.206469] (-) TimerEvent: {}
+[2.232925] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[2.233535] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.236906] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/concert_info__functions.c.o\x1b[0m\n'}
+[2.237352] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/ticket__description.c.o\x1b[0m\n'}
+[2.237569] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/ticket__functions.c.o\x1b[0m\n'}
+[2.239088] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.239515] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/ticket__type_support.c.o\x1b[0m\n'}
+[2.239913] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/ticket_sale__type_support.c.o\x1b[0m\n'}
+[2.240112] (interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/concert_info__description.c.o\x1b[0m\n'}
+[2.241054] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/concert_info__type_support.c.o\x1b[0m\n'}
+[2.241489] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/ticket_sale__functions.c.o\x1b[0m\n'}
+[2.241876] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/ticket_sale__description.c.o\x1b[0m\n'}
+[2.306699] (-) TimerEvent: {}
+[2.407228] (-) TimerEvent: {}
+[2.421671] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.469471] (interfaces) StdoutLine: {'line': b'[ 25%] Built target interfaces__rosidl_generator_c\n'}
+[2.489279] (interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.490323] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.490663] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.491155] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.491996] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.495242] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.507594] (-) TimerEvent: {}
+[2.608220] (-) TimerEvent: {}
+[2.708692] (-) TimerEvent: {}
+[2.809280] (-) TimerEvent: {}
+[2.889007] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.890085] (interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/concert_info__type_support.cpp.o\x1b[0m\n'}
+[2.892795] (interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/ticket_sale__type_support.cpp.o\x1b[0m\n'}
+[2.894123] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/ticket__type_support.cpp.o\x1b[0m\n'}
+[2.898599] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.899751] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/concert_info__type_support.c.o\x1b[0m\n'}
+[2.900110] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.901153] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/ticket_sale__type_support.cpp.o\x1b[0m\n'}
+[2.901917] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/ticket_sale__type_support.c.o\x1b[0m\n'}
+[2.903116] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/concert_info__type_support.cpp.o\x1b[0m\n'}
+[2.904719] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/ticket__type_support.c.o\x1b[0m\n'}
+[2.905171] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/ticket__type_support.cpp.o\x1b[0m\n'}
+[2.909472] (-) TimerEvent: {}
+[2.914350] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/concert_info__type_support.cpp.o\x1b[0m\n'}
+[2.916969] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.961331] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/ticket__type_support.cpp.o\x1b[0m\n'}
+[2.974997] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/ticket_sale__type_support.cpp.o\x1b[0m\n'}
+[3.004334] (interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.009673] (-) TimerEvent: {}
+[3.063204] (interfaces) StdoutLine: {'line': b'[ 60%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[3.070607] (interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.109875] (-) TimerEvent: {}
+[3.123690] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.125280] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/concert_info__type_support.cpp.o\x1b[0m\n'}
+[3.125798] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/ticket_sale__type_support.cpp.o\x1b[0m\n'}
+[3.128870] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/ticket__type_support.cpp.o\x1b[0m\n'}
+[3.154569] (interfaces) StdoutLine: {'line': b'[ 68%] Built target interfaces__rosidl_typesupport_c\n'}
+[3.159246] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/concert_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.159574] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[3.169357] (interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/ticket__type_support_c.cpp.o\x1b[0m\n'}
+[3.176326] (interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/ticket_sale__type_support_c.cpp.o\x1b[0m\n'}
+[3.211660] (-) TimerEvent: {}
+[3.314512] (-) TimerEvent: {}
+[3.414919] (-) TimerEvent: {}
+[3.515368] (-) TimerEvent: {}
+[3.615839] (-) TimerEvent: {}
+[3.716378] (-) TimerEvent: {}
+[3.816977] (-) TimerEvent: {}
+[3.917513] (-) TimerEvent: {}
+[4.013202] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.017767] (-) TimerEvent: {}
+[4.038903] (interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.040950] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.098747] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[4.117988] (-) TimerEvent: {}
+[4.124146] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.124485] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.218375] (-) TimerEvent: {}
+[4.318917] (-) TimerEvent: {}
+[4.370272] (interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.419180] (-) TimerEvent: {}
+[4.448796] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.467057] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces\n'}
+[4.486787] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.519338] (-) TimerEvent: {}
+[4.619821] (-) TimerEvent: {}
+[4.720331] (-) TimerEvent: {}
+[4.820883] (-) TimerEvent: {}
+[4.921276] (-) TimerEvent: {}
+[5.021707] (-) TimerEvent: {}
+[5.122193] (-) TimerEvent: {}
+[5.179758] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__py\n'}
+[5.207939] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[5.208572] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_ticket_sale_s.c.o\x1b[0m\n'}
+[5.209859] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_concert_info_s.c.o\x1b[0m\n'}
+[5.210185] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_ticket_s.c.o\x1b[0m\n'}
+[5.222440] (-) TimerEvent: {}
+[5.323050] (-) TimerEvent: {}
+[5.423465] (-) TimerEvent: {}
+[5.435658] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.486024] (interfaces) StdoutLine: {'line': b'[ 90%] Built target interfaces__rosidl_generator_py\n'}
+[5.518620] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.518950] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.519097] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.523729] (-) TimerEvent: {}
+[5.624328] (-) TimerEvent: {}
+[5.641881] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.659671] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.660071] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.674886] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_c\n'}
+[5.693891] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_introspection_c\n'}
+[5.694284] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[5.706797] (interfaces) CommandEnded: {'returncode': 0}
+[5.707511] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[5.715611] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces'], 'cwd': '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': '2709669c7162', 'GIT_ASKPASS': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/helpers/browser.sh', 'HOME': '/home/wbk', 'OLDPWD': '/home/wbk/wbk_ros_intro', 'TERM_PROGRAM_VERSION': '1.104.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f68b36f4-6882-4896-9642-cd1a228698c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e78cea02-a619-48d9-846d-7cec90004e96.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/wbk/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/wbk/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/home/wbk/.gnupg/S.gpg-agent"]', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2e271615a6.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://roscore:11311', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.723408] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.723587] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[5.723785] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.json\n'}
+[5.723897] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/ConcertInfo.json\n'}
+[5.724077] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/Ticket.json\n'}
+[5.724365] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/action/TicketSale.json\n'}
+[5.724478] (-) TimerEvent: {}
+[5.724631] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.724716] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.724760] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.724801] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__functions.c\n'}
+[5.724910] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__type_support.c\n'}
+[5.724961] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__description.c\n'}
+[5.725244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__functions.h\n'}
+[5.725542] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__struct.h\n'}
+[5.725750] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__type_support.h\n'}
+[5.725806] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/ticket_sale.h\n'}
+[5.725859] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.726070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.726174] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__struct.h\n'}
+[5.726302] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__description.c\n'}
+[5.726347] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__type_support.h\n'}
+[5.726492] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__functions.c\n'}
+[5.726556] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__type_support.c\n'}
+[5.726608] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__functions.h\n'}
+[5.726669] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/ticket.h\n'}
+[5.726713] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.726887] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.726995] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c\n'}
+[5.727311] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h\n'}
+[5.727439] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__description.c\n'}
+[5.727671] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h\n'}
+[5.727829] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__type_support.h\n'}
+[5.727948] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__description.c\n'}
+[5.728026] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__struct.h\n'}
+[5.728262] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h\n'}
+[5.728445] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__functions.h\n'}
+[5.728550] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.c\n'}
+[5.728666] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__type_support.c\n'}
+[5.728741] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__functions.c\n'}
+[5.728878] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/num.h\n'}
+[5.728942] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/concert_info.h\n'}
+[5.728984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.729025] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[5.729066] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[5.730353] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[5.730948] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[5.731268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.731606] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.731745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.731807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__rosidl_typesupport_fastrtps_c.h\n'}
+[5.731861] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.731975] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.732095] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__rosidl_typesupport_fastrtps_c.h\n'}
+[5.732144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.732386] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.732437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[5.732488] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__rosidl_typesupport_fastrtps_c.h\n'}
+[5.732559] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.733193] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.733776] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.733954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.734280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.734373] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.734598] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__type_support.hpp\n'}
+[5.734746] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__struct.hpp\n'}
+[5.734835] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__builder.hpp\n'}
+[5.735053] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__traits.hpp\n'}
+[5.735179] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/ticket_sale.hpp\n'}
+[5.735306] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.735596] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.735671] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__traits.hpp\n'}
+[5.735757] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__struct.hpp\n'}
+[5.736146] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__type_support.hpp\n'}
+[5.736387] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__builder.hpp\n'}
+[5.736501] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/ticket.hpp\n'}
+[5.736872] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.737125] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.737239] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.737337] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp\n'}
+[5.737554] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__type_support.hpp\n'}
+[5.737689] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__traits.hpp\n'}
+[5.737829] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp\n'}
+[5.737946] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp\n'}
+[5.738058] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__struct.hpp\n'}
+[5.738157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__builder.hpp\n'}
+[5.738540] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp\n'}
+[5.738596] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/concert_info.hpp\n'}
+[5.738709] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/num.hpp\n'}
+[5.738754] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.738793] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.738831] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.738869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[5.738907] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.738945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.738983] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.739024] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.739116] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[5.739247] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.739377] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.739430] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.739556] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.739672] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[5.739787] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.740076] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.740187] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.740303] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.740408] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.740715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.740837] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__type_support.c\n'}
+[5.740957] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__rosidl_typesupport_introspection_c.h\n'}
+[5.741186] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.741271] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.741319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__rosidl_typesupport_introspection_c.h\n'}
+[5.741359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__type_support.c\n'}
+[5.741405] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.741443] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.741480] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c\n'}
+[5.741518] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[5.741572] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__rosidl_typesupport_introspection_c.h\n'}
+[5.741608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__type_support.c\n'}
+[5.741643] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.742253] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.742617] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.743757] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[5.744069] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.744167] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[5.744283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[5.744396] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[5.744603] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__type_support.cpp\n'}
+[5.744665] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/ticket_sale__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.744709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.744835] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.745057] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__type_support.cpp\n'}
+[5.745170] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/ticket__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.745276] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.745373] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.745485] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.745597] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.745791] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/concert_info__type_support.cpp\n'}
+[5.745856] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.cpp\n'}
+[5.746105] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.746813] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.747574] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[5.748278] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.748398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[5.748513] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[5.748563] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info\n'}
+[5.748710] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.748884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.748938] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.748979] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.749018] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces\n'}
+[5.749065] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[5.749226] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action\n'}
+[5.749446] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py\n'}
+[5.749612] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action/_ticket_sale.py\n'}
+[5.749671] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action/_ticket_sale_s.c\n'}
+[5.749931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.750152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv\n'}
+[5.750341] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_ticket_s.c\n'}
+[5.750435] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_ticket.py\n'}
+[5.750643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py\n'}
+[5.750745] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py\n'}
+[5.751085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg\n'}
+[5.751286] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py\n'}
+[5.751486] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py\n'}
+[5.751549] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_concert_info_s.c\n'}
+[5.751598] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num_s.c\n'}
+[5.751650] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_concert_info.py\n'}
+[5.751728] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.751869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.751924] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.751963] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.806629] (interfaces) StdoutLine: {'line': b"Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces'...\n"}
+[5.806841] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...\n"}
+[5.806901] (interfaces) StdoutLine: {'line': b"Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action'...\n"}
+[5.806943] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py'...\n"}
+[5.806992] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/action/_ticket_sale.py'...\n"}
+[5.807030] (interfaces) StdoutLine: {'line': b"Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...\n"}
+[5.807069] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...\n"}
+[5.807105] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_concert_info.py'...\n"}
+[5.807141] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py'...\n"}
+[5.807177] (interfaces) StdoutLine: {'line': b"Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...\n"}
+[5.807213] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...\n"}
+[5.807249] (interfaces) StdoutLine: {'line': b"Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_ticket.py'...\n"}
+[5.812605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.812835] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.813130] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.813255] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.813409] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[5.813658] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[5.814263] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[5.814754] (interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[5.815040] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.idl\n'}
+[5.815137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/ConcertInfo.idl\n'}
+[5.815253] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/Ticket.idl\n'}
+[5.815339] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/action/TicketSale.idl\n'}
+[5.815536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.msg\n'}
+[5.815654] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/ConcertInfo.msg\n'}
+[5.815755] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/Ticket.srv\n'}
+[5.815800] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/action/TicketSale.action\n'}
+[5.816037] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[5.816101] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[5.816158] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[5.816200] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[5.816241] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[5.816284] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[5.816328] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[5.816434] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[5.816549] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[5.816662] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[5.816773] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[5.816893] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[5.817012] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[5.817245] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.817349] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.817612] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[5.817696] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.817740] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.817788] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.817858] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[5.817973] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.818036] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.818197] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[5.818312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.818437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.818509] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[5.818633] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.818806] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.818928] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[5.819112] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.819202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.819268] (interfaces) StdoutLine: {'line': b'-- Old export file "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[5.819394] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.819687] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.819839] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.819884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.820062] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.820332] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.820536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.820592] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.820634] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.820675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.820715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.820754] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[5.820792] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[5.820830] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/package.xml\n'}
+[5.823041] (interfaces) CommandEnded: {'returncode': 0}
+[5.824730] (-) TimerEvent: {}
+[5.849239] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[5.850278] (-) EventReactorShutdown: {}

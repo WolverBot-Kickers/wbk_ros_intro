@@ -69,6 +69,7 @@ include CMakeFiles/interfaces.dir/progress.make
 CMakeFiles/interfaces: /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/msg/Num.msg
 CMakeFiles/interfaces: /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/msg/ConcertInfo.msg
 CMakeFiles/interfaces: /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/srv/Ticket.srv
+CMakeFiles/interfaces: /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/action/TicketSale.action
 CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -102,6 +103,10 @@ CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.id
 CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 
 interfaces: CMakeFiles/interfaces
 interfaces: CMakeFiles/interfaces.dir/build.make

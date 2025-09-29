@@ -1,0 +1,5 @@
+  File "/home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/server_node.py", line 57
+    self.get_logger().info(f"Received goal request 
+                           ^
+SyntaxError: unterminated f-string literal (detected at line 57)
+

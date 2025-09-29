@@ -72,11 +72,14 @@ include /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFil
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_num.py
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_concert_info.py
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_ticket.py
+/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_ticket_sale.py
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
+/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_num_s.c
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_concert_info_s.c
 /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_ticket_s.c
+/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_ticket_sale_s.c
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -94,6 +97,7 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/Num.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/ConcertInfo.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Ticket.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/action/TicketSale.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -159,6 +163,11 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -177,11 +186,17 @@ rosidl_generator_py/interfaces/msg/_concert_info.py: rosidl_generator_py/interfa
 rosidl_generator_py/interfaces/srv/_ticket.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_ticket.py
 
+rosidl_generator_py/interfaces/action/_ticket_sale.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/_ticket_sale.py
+
 rosidl_generator_py/interfaces/msg/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/__init__.py
 
 rosidl_generator_py/interfaces/srv/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/__init__.py
+
+rosidl_generator_py/interfaces/action/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/__init__.py
 
 rosidl_generator_py/interfaces/msg/_num_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_num_s.c
@@ -192,10 +207,16 @@ rosidl_generator_py/interfaces/msg/_concert_info_s.c: rosidl_generator_py/interf
 rosidl_generator_py/interfaces/srv/_ticket_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_ticket_s.c
 
+rosidl_generator_py/interfaces/action/_ticket_sale_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/_ticket_sale_s.c
+
 interfaces__py: /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
+interfaces__py: rosidl_generator_py/interfaces/action/_ticket_sale.py
+interfaces__py: rosidl_generator_py/interfaces/action/_ticket_sale_s.c
 interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_concert_info.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_concert_info_s.c

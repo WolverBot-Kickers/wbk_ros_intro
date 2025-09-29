@@ -69,12 +69,14 @@ include CMakeFiles/interfaces__rosidl_generator_type_description.dir/progress.ma
 CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/Num.json
 CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/ConcertInfo.json
 CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/srv/Ticket.json
+CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/action/TicketSale.json
 
 rosidl_generator_type_description/interfaces/msg/Num.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/interfaces/msg/Num.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/interfaces/msg/Num.json: rosidl_adapter/interfaces/msg/Num.idl
 rosidl_generator_type_description/interfaces/msg/Num.json: rosidl_adapter/interfaces/msg/ConcertInfo.idl
 rosidl_generator_type_description/interfaces/msg/Num.json: rosidl_adapter/interfaces/srv/Ticket.idl
+rosidl_generator_type_description/interfaces/msg/Num.json: rosidl_adapter/interfaces/action/TicketSale.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description__arguments.json
 
@@ -84,7 +86,11 @@ rosidl_generator_type_description/interfaces/msg/ConcertInfo.json: rosidl_genera
 rosidl_generator_type_description/interfaces/srv/Ticket.json: rosidl_generator_type_description/interfaces/msg/Num.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/interfaces/srv/Ticket.json
 
+rosidl_generator_type_description/interfaces/action/TicketSale.json: rosidl_generator_type_description/interfaces/msg/Num.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/interfaces/action/TicketSale.json
+
 interfaces__rosidl_generator_type_description: CMakeFiles/interfaces__rosidl_generator_type_description
+interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/action/TicketSale.json
 interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/ConcertInfo.json
 interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/Num.json
 interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/srv/Ticket.json

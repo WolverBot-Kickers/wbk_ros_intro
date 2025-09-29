@@ -5,12 +5,14 @@
   "idl_tuples": [
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/Num.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/ConcertInfo.idl",
-    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/Ticket.idl"
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/Ticket.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces:action/TicketSale.idl"
   ],
   "ros_interface_files": [
     "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/msg/Num.msg",
     "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/msg/ConcertInfo.msg",
-    "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/srv/Ticket.srv"
+    "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/srv/Ticket.srv",
+    "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/action/TicketSale.action"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -77,7 +79,12 @@
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -102,6 +109,7 @@
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/Num.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/ConcertInfo.idl",
     "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/Ticket.idl",
+    "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/action/TicketSale.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -166,11 +174,17 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
     "msg/Num.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/msg/Num.json",
     "msg/ConcertInfo.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/msg/ConcertInfo.json",
-    "srv/Ticket.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/srv/Ticket.json"
+    "srv/Ticket.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/srv/Ticket.json",
+    "action/TicketSale.idl:/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/action/TicketSale.json"
   ]
 }

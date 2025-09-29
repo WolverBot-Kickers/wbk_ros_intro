@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../build/service_client/service_client.egg-info
+writing ../../../build/service_client/service_client.egg-info/PKG-INFO
+writing dependency_links to ../../../build/service_client/service_client.egg-info/dependency_links.txt
+writing entry points to ../../../build/service_client/service_client.egg-info/entry_points.txt
+writing requirements to ../../../build/service_client/service_client.egg-info/requires.txt
+writing top-level names to ../../../build/service_client/service_client.egg-info/top_level.txt
+writing manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+reading manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/service_client/service_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbk/wbk_ros_intro/build/service_client/build
+creating /home/wbk/wbk_ros_intro/build/service_client/build/lib
+creating /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+copying service_client/msn_client_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+copying service_client/client_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+copying service_client/__init__.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+copying service_client/server_node.py -> /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client
+running install
+running install_lib
+creating /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/msn_client_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/client_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/__init__.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+copying /home/wbk/wbk_ros_intro/build/service_client/build/lib/service_client/server_node.py -> /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client
+byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/msn_client_node.py to msn_client_node.cpython-312.pyc
+byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/client_node.py to client_node.cpython-312.pyc
+byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/server_node.py to server_node.cpython-312.pyc
+running install_data
+creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index
+  File "/home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client/server_node.py", line 57
+    self.get_logger().info(f"Received goal request 
+                           ^
+SyntaxError: unterminated f-string literal (detected at line 57)
+
+creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index
+creating /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index/packages
+copying resource/service_client -> /home/wbk/wbk_ros_intro/install/service_client/share/ament_index/resource_index/packages
+copying package.xml -> /home/wbk/wbk_ros_intro/install/service_client/share/service_client
+running install_egg_info
+Copying ../../../build/service_client/service_client.egg-info to /home/wbk/wbk_ros_intro/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client_node script to /home/wbk/wbk_ros_intro/install/service_client/lib/service_client
+Installing server_node script to /home/wbk/wbk_ros_intro/install/service_client/lib/service_client
+writing list of installed files to '/home/wbk/wbk_ros_intro/build/service_client/install.log'

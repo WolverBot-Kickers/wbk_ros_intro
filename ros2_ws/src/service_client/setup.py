@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'server_node = service_client.server_node:main',
             'client_node = service_client.client_node:main',
+            'msn_client_node = service_client.msn_client_node:main',
         ],
     },
 )

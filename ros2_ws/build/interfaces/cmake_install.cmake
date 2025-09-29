@@ -59,6 +59,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/action" TYPE FILE FILES "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_type_description/interfaces/action/TicketSale.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/interfaces/interfaces" TYPE DIRECTORY FILES "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -383,6 +387,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/action" TYPE FILE FILES "/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_adapter/interfaces/action/TicketSale.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/msg" TYPE FILE FILES "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/msg/Num.msg")
 endif()
 
@@ -392,6 +400,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/srv/Ticket.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/action" TYPE FILE FILES "/home/wbk/wbk_ros_intro/ros2_ws/src/interfaces/action/TicketSale.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

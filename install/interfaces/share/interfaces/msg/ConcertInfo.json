@@ -1,0 +1,86 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/msg/ConcertInfo",
+      "fields": [
+        {
+          "name": "concert_count",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "concert_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "musn_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "concert_dates",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "prices",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "remng_durations",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "remng_ticket",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/msg/ConcertInfo",
+      "hash_string": "RIHS01_c20084049f5820edcfc9ba082b5ff9a421bf1a704043ca011bb4b91a777c710b"
+    }
+  ]
+}

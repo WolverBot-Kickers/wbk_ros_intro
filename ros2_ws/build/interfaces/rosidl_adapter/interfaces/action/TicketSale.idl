@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/TicketSale.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    struct TicketSale_Goal {
+      int64 id;
+
+      int64 musn_id;
+
+      string musn_name;
+
+      string concert_name;
+
+      string concert_date;
+
+      int64 quantity;
+
+      int64 price;
+
+      int64 duration;
+    };
+    struct TicketSale_Result {
+      int64 sale_count;
+
+      int64 revenue;
+    };
+    struct TicketSale_Feedback {
+      int64 sale_count;
+
+      int64 revenue;
+
+      int64 remng_duration;
+    };
+  };
+};

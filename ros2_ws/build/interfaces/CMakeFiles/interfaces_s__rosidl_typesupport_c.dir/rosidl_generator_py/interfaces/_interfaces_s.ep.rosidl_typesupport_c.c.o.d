@@ -240,4 +240,8 @@ CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces
  /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/ticket__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/ticket__functions.h
+ /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/ticket__functions.h \
+ /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/action/detail/ticket_sale__type_support.h \
+ /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/action/detail/ticket_sale__struct.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/action/detail/ticket_sale__functions.h
