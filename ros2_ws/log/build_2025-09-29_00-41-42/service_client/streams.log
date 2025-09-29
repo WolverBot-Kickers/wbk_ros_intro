@@ -1,0 +1,26 @@
+[0.767s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_client build --build-base /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build install --record /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log --single-version-externally-managed install_data
+[0.934s] running egg_info
+[0.944s] writing ../../build/service_client/service_client.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../../build/service_client/service_client.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/service_client/service_client.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/service_client/service_client.egg-info/requires.txt
+[0.944s] writing top-level names to ../../build/service_client/service_client.egg-info/top_level.txt
+[0.965s] reading manifest file '../../build/service_client/service_client.egg-info/SOURCES.txt'
+[0.967s] adding license file 'LICENSE'
+[0.967s] writing manifest file '../../build/service_client/service_client.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] copying service_client/client_node.py -> /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build/lib/service_client
+[0.968s] running install
+[0.972s] running install_lib
+[0.983s] copying /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build/lib/service_client/client_node.py -> /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client
+[0.984s] byte-compiling /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client/client_node.py to client_node.cpython-312.pyc
+[0.985s] running install_data
+[0.985s] running install_egg_info
+[0.996s] removing '/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info' (and everything under it)
+[0.996s] Copying ../../build/service_client/service_client.egg-info to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service_client-0.0.0-py3.12.egg-info
+[0.997s] running install_scripts
+[1.074s] Installing client_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[1.074s] Installing server_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[1.074s] writing list of installed files to '/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log'
+[1.098s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/src/service_client' returned '0': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_client build --build-base /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build install --record /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/install.log --single-version-externally-managed install_data

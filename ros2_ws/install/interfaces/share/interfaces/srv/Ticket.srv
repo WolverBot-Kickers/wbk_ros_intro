@@ -1,0 +1,4 @@
+int64 quantity
+---
+int64 tickets_left
+bool success

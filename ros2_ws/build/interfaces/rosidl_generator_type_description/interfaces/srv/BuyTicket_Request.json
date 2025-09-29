@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/BuyTicket_Request",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/BuyTicket_Request",
+      "hash_string": "RIHS01_1cff427ef2edddafe785cb7921a3744df0fe9975d000fbe258aad3eb58335e4e"
+    }
+  ]
+}

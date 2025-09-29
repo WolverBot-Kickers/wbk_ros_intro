@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces
+[0.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.047s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.115s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.136s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.199s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.443s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.982s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.010s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.018s] -- Added test 'lint_cmake' to check CMake code style
+[1.019s] -- Added test 'xmllint' to check XML markup files
+[1.021s] -- Configuring done (1.0s)
+[1.056s] -- Generating done (0.0s)
+[1.067s] -- Build files have been written to: /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces
+[1.074s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces
+[1.074s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces -- -j16 -l16
+[1.119s] failed to create symbolic link '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces/ament_cmake_python/interfaces/interfaces' because existing path cannot be removed: Is a directory
+[1.119s] [  2%] Built target interfaces__rosidl_generator_type_description
+[1.120s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_interfaces] Error 1
+[1.121s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_interfaces.dir/all] Error 2
+[1.121s] gmake[1]: *** Waiting for unfinished jobs....
+[1.139s] [  4%] Built target interfaces__cpp
+[1.140s] gmake: *** [Makefile:146: all] Error 2
+[1.142s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces -- -j16 -l16

@@ -1,0 +1,283 @@
+[0.020s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces
+[0.206s] -- The C compiler identification is GNU 13.3.0
+[0.314s] -- The CXX compiler identification is GNU 13.3.0
+[0.335s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.686s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.797s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.860s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.877s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.981s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.999s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.551s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.549s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.671s] -- Found PythonExtra: /usr/bin/python3  
+[3.124s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.175s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.207s] -- Added test 'lint_cmake' to check CMake code style
+[3.209s] -- Added test 'xmllint' to check XML markup files
+[3.212s] -- Configuring done (3.1s)
+[3.259s] -- Generating done (0.0s)
+[3.269s] -- Build files have been written to: /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces
+[3.278s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces
+[3.279s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces -- -j16 -l16
+[3.323s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.330s] [  2%] Built target ament_cmake_python_copy_interfaces
+[3.487s] running egg_info
+[3.488s] creating interfaces.egg-info
+[3.499s] writing interfaces.egg-info/PKG-INFO
+[3.499s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.499s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.499s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.500s] [  2%] Built target interfaces__rosidl_generator_type_description
+[3.510s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.520s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.532s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.533s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.562s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[3.756s] [  6%] Built target interfaces__cpp
+[3.780s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__description.c.o[0m
+[3.780s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__type_support.c.o[0m
+[3.781s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/buy_ticket__functions.c.o[0m
+[3.781s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o[0m
+[3.783s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/buy_ticket__description.c.o[0m
+[3.783s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/buy_ticket__type_support.c.o[0m
+[3.863s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[3.899s] [ 22%] Built target interfaces__rosidl_generator_c
+[3.912s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.912s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.912s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.912s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.916s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.916s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.132s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/buy_ticket__type_support.cpp.o[0m
+[4.134s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/num__type_support.cpp.o[0m
+[4.143s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o[0m
+[4.146s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/buy_ticket__type_support.cpp.o[0m
+[4.202s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[4.203s] [ 50%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[4.205s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/buy_ticket__type_support.cpp.o[0m
+[4.210s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/buy_ticket__type_support.cpp.o[0m
+[4.211s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o[0m
+[4.237s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/buy_ticket__type_support.c.o[0m
+[4.237s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/num__type_support.c.o[0m
+[4.255s] [ 61%] Built target interfaces__rosidl_typesupport_c
+[4.292s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/buy_ticket__type_support_c.cpp.o[0m
+[4.292s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.304s] [ 68%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[4.360s] [ 68%] Built target interfaces__rosidl_typesupport_introspection_c
+[4.689s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[4.703s] [ 72%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.787s] [ 72%] Built target interfaces__rosidl_typesupport_cpp
+[4.791s] [ 72%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[4.806s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.855s] [ 75%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[4.905s] [ 77%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.971s] [ 77%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[4.989s] [ 77%] Built target interfaces
+[5.007s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.299s] [ 79%] Built target interfaces__py
+[5.322s] [ 84%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_buy_ticket_s.c.o[0m
+[5.322s] [ 84%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_num_s.c.o[0m
+[5.479s] [ 86%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[5.522s] [ 86%] Built target interfaces__rosidl_generator_py
+[5.541s] [ 88%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.541s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.542s] [ 93%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.631s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[5.635s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.636s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.661s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[5.664s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[5.665s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[5.676s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces -- -j16 -l16
+[5.685s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces
+[5.692s] -- Install configuration: ""
+[5.693s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[5.693s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.json
+[5.694s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/BuyTicket.json
+[5.694s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.694s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__description.c
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__struct.h
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__functions.h
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__functions.c
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__type_support.c
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__type_support.h
+[5.695s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/buy_ticket.h
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__description.c
+[5.696s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.c
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/num.h
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[5.697s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[5.697s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[5.697s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.697s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.697s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.698s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__rosidl_typesupport_fastrtps_c.h
+[5.698s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.698s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.698s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[5.698s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.698s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[5.698s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.698s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.699s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.699s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__type_support.hpp
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__struct.hpp
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__traits.hpp
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__builder.hpp
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/buy_ticket.hpp
+[5.699s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.699s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.700s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/num.hpp
+[5.700s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.700s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.700s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__rosidl_typesupport_fastrtps_cpp.hpp
+[5.700s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[5.701s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.701s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.701s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.701s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[5.701s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.701s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.701s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.701s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.701s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.702s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.702s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__rosidl_typesupport_introspection_c.h
+[5.702s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__type_support.c
+[5.702s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.702s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.702s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.c
+[5.702s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[5.702s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.702s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[5.703s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.703s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[5.703s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[5.703s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces
+[5.703s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv
+[5.703s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[5.703s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__type_support.cpp
+[5.703s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/srv/detail/buy_ticket__rosidl_typesupport_introspection_cpp.hpp
+[5.703s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[5.703s] -- Up-to-date: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[5.703s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.cpp
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[5.704s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[5.704s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.704s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_buy_ticket.py
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_buy_ticket_s.c
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[5.705s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num_s.c
+[5.706s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.706s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[5.706s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.706s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[5.747s] Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[5.747s] Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[5.747s] Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[5.747s] Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[5.747s] Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_num.py'...
+[5.747s] Listing '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...
+[5.747s] Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...
+[5.747s] Compiling '/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_buy_ticket.py'...
+[5.753s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.753s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.753s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[5.753s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.753s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[5.754s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""
+[5.754s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[5.754s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[5.754s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.idl
+[5.754s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/BuyTicket.idl
+[5.754s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/msg/Num.msg
+[5.754s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/srv/BuyTicket.srv
+[5.755s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[5.755s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[5.755s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/path.sh
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/environment/path.dsv
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.bash
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.sh
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.zsh
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/local_setup.dsv
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/package.dsv
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[5.756s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.757s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.758s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.759s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.760s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[5.760s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[5.760s] -- Installing: /home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/share/interfaces/package.xml
+[5.761s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/ros2_ws/build/interfaces

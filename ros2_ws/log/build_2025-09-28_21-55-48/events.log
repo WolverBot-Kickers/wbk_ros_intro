@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000389] (-) JobUnselected: {'identifier': 'service_client'}
+[0.000747] (-) EventReactorShutdown: {}

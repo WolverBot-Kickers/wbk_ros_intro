@@ -1,0 +1,20 @@
+[0.516s] Invoking command in '/home/wbk/wbk_ros_intro/ros2_ws/build/service_client': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build --no-deps symlink_data --force
+[0.725s] running develop
+[0.824s] running egg_info
+[0.834s] writing service_client.egg-info/PKG-INFO
+[0.834s] writing dependency_links to service_client.egg-info/dependency_links.txt
+[0.835s] writing entry points to service_client.egg-info/entry_points.txt
+[0.835s] writing requirements to service_client.egg-info/requires.txt
+[0.835s] writing top-level names to service_client.egg-info/top_level.txt
+[0.855s] reading manifest file 'service_client.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'service_client.egg-info/SOURCES.txt'
+[0.867s] running build_ext
+[0.868s] Creating /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages/service-client.egg-link (link to .)
+[0.868s] Installing client_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[0.868s] Installing server_node script to /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/service_client
+[0.868s] 
+[0.869s] Installed /home/wbk/wbk_ros_intro/ros2_ws/build/service_client
+[0.869s] running symlink_data
+[0.869s] symbolically linking /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/resource/service_client -> /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/share/ament_index/resource_index/packages
+[0.869s] symbolically linking /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/package.xml -> /home/wbk/wbk_ros_intro/ros2_ws/install/service_client/share/service_client
+[0.892s] Invoked command in '/home/wbk/wbk_ros_intro/ros2_ws/build/service_client' returned '0': PYTHONPATH=/home/wbk/wbk_ros_intro/ros2_ws/build/service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/interfaces/lib/python3.12/site-packages:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wbk/wbk_ros_intro/ros2_ws/build/service_client/build --no-deps symlink_data --force
