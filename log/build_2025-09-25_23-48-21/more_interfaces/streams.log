@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20
+[0.053s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.060s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.068s] [  5%] Built target more_interfaces__cpp
+[0.070s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.088s] [ 27%] Built target more_interfaces__rosidl_typesupport_c
+[0.090s] [ 36%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 52%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.091s] [ 52%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.091s] [ 61%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.092s] [ 69%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.108s] [ 69%] Built target more_interfaces
+[0.109s] [ 72%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.126s] [ 75%] Built target more_interfaces__py
+[0.144s] [ 77%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_concert_info_s.c.o[0m
+[0.211s] running egg_info
+[0.221s] writing more_interfaces.egg-info/PKG-INFO
+[0.222s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.222s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.254s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.254s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.276s] [ 77%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.291s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/ConcertInfo.msg: No such file or directory
+[0.291s]     5 | #include [01;31m[K"more_interfaces/msg/ConcertInfo.msg"[m[K
+[0.291s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.291s] compilation terminated.
+[0.293s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[0.293s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+[0.293s] gmake[1]: *** Waiting for unfinished jobs....
+[0.324s] [ 80%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so[0m
+[0.355s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.356s] gmake: *** [Makefile:146: all] Error 2
+[0.358s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20

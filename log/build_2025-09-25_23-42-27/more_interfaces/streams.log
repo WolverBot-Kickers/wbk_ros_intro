@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+[0.099s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.387s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.452s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.454s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.523s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.587s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+[0.587s]   more_interfaces is not a CMake target.  Maybe rosidl_generate_interfaces
+[0.587s]   was given a different target name?
+[0.587s] Call Stack (most recent call first):
+[0.587s]   CMakeLists.txt:19 (rosidl_get_typesupport_target)
+[0.587s] 
+[0.587s] [0m
+[0.587s] -- Configuring incomplete, errors occurred!
+[0.596s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '1': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces

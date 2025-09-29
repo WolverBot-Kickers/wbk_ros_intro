@@ -1,0 +1,4 @@
+Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20
+Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20

@@ -1,0 +1,10 @@
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In lambda function:
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K269[m[K’ to ‘[01m[K13[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   26 |                 message.prices[0] = [01;35m[K269[m[K;
+      |                                     [01;35m[K^~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:35:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmstd[m[K’ has not been declared
+   35 |                 [01;31m[Kmstd[m[K::endl;
+      |                 [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

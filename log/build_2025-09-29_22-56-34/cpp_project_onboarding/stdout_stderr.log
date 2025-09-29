@@ -1,0 +1,16 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/concertserver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/customer.cpp.o[0m
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K~/src/more_interfaces/src/server.hpp: No such file or directory
+    2 | #include [01;31m[K"~/src/more_interfaces/src/server.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:3:10:[m[K [01;31m[Kfatal error: [m[K~/src/more_interfaces/src/server.hpp: No such file or directory
+    3 | #include [01;31m[K"~/src/more_interfaces/src/server.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/concertserver.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/customer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

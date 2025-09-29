@@ -1,0 +1,6 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/home/wbk/wbk_ros_intro/src/more_interfaces:msg/ConcertInfo.msg"
+  ]
+}

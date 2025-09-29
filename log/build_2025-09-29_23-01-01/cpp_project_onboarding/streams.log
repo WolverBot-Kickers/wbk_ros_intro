@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.192s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.209s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.217s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.287s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.332s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.375s] -- Found more_interfaces: 0.0.0 (/home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake)
+[0.453s] -- Configuring done (0.4s)
+[0.463s] -- Generating done (0.0s)
+[0.468s] -- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[0.492s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/concertserver.cpp.o[0m
+[0.498s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/customer.cpp.o[0m
+[0.688s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K../more_interfaces/srv/server.hpp: No such file or directory
+[0.688s]     2 | #include [01;31m[K"../more_interfaces/srv/server.hpp"[m[K
+[0.688s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.688s] compilation terminated.
+[0.690s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/concertserver.cpp.o] Error 1
+[0.690s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.690s] gmake[1]: *** Waiting for unfinished jobs....
+[0.696s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:3:10:[m[K [01;31m[Kfatal error: [m[K../more_interfaces/srv/server.hpp: No such file or directory
+[0.696s]     3 | #include [01;31m[K"../more_interfaces/srv/server.hpp"[m[K
+[0.696s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.697s] compilation terminated.
+[0.699s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/customer.cpp.o] Error 1
+[0.699s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[0.699s] gmake: *** [Makefile:146: all] Error 2
+[0.701s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

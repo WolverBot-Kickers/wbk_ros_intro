@@ -1,0 +1,2 @@
+Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '1': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces

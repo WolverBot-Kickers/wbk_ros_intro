@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from more_interfaces/msg/ConcertInfo.msg
+// generated code does not contain a copyright notice
+
+
+module more_interfaces {
+  module msg {
+    struct ConcertInfo {
+      uint8 concert_count;
+
+      sequence<string> concert_names;
+
+      sequence<string> musn_names;
+
+      sequence<string> concert_dates;
+
+      sequence<uint8> prices;
+
+      sequence<uint8> remng_durations;
+    };
+  };
+};

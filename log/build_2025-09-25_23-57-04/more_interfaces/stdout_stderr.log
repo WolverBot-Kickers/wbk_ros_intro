@@ -1,0 +1,50 @@
+[  2%] Built target more_interfaces__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_more_interfaces
+[  5%] Built target more_interfaces__cpp
+[ 19%] Built target more_interfaces__rosidl_generator_c
+[ 33%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 36%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 44%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 52%] Built target more_interfaces__rosidl_typesupport_c
+[ 61%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 69%] Built target more_interfaces
+[ 72%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 75%] Built target more_interfaces__py
+[ 80%] Built target more_interfaces__rosidl_generator_py
+[ 91%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 91%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_more_interfaces_egg
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:45:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   45 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In constructor ‘[01m[KServerForConcerts::[01;32m[KServerForConcerts[m[K()[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:16:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServerForConcerts::create_publisher<more_interfaces::msg::ConcertInfo>(const char [13])[m[K’
+   16 |             ServerForConcerts_ = [01;31m[Kthis->create_publisher<more_interfaces::msg::ConcertInfo>("concert_info")[m[K;
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In lambda function:
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K269[m[K’ to ‘[01m[K13[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   26 |                 message.prices[0] = [01;35m[K269[m[K;
+      |                                     [01;35m[K^~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:35:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmstd[m[K’ has not been declared
+   35 |                 [01;31m[Kmstd[m[K::endl;
+      |                 [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

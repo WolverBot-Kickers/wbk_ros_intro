@@ -1,0 +1,49 @@
+[0.024s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+[0.096s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.654s] Error parsing '/home/wbk/wbk_ros_intro/src/more_interfaces/package.xml':
+[0.654s] Traceback (most recent call last):
+[0.654s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.654s]     root = dom.parseString(data)
+[0.654s]            ^^^^^^^^^^^^^^^^^^^^^
+[0.655s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[0.656s]     return expatbuilder.parseString(string)
+[0.656s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.656s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[0.656s]     return builder.parseString(string)
+[0.656s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.657s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[0.657s]     parser.Parse(string, True)
+[0.657s] xml.parsers.expat.ExpatError: junk after document element: line 20, column 0
+[0.657s] 
+[0.657s] During handling of the above exception, another exception occurred:
+[0.657s] 
+[0.657s] Traceback (most recent call last):
+[0.658s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.658s]     main()
+[0.658s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.658s]     raise e
+[0.658s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.658s]     package = parse_package_string(
+[0.658s]               ^^^^^^^^^^^^^^^^^^^^^
+[0.658s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.658s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.658s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/wbk/wbk_ros_intro/src/more_interfaces/package.xml':
+[0.658s] The manifest contains invalid XML:
+[0.658s] junk after document element: line 20, column 0
+[0.668s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.668s]   execute_process(/usr/bin/python3
+[0.668s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.668s]   /home/wbk/wbk_ros_intro/src/more_interfaces/package.xml
+[0.668s]   /home/wbk/wbk_ros_intro/build/more_interfaces/ament_cmake_core/package.cmake)
+[0.668s]   returned error code 1
+[0.668s] Call Stack (most recent call first):
+[0.668s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.668s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[0.669s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.669s] 
+[0.669s] [0m
+[0.669s] -- Configuring incomplete, errors occurred!
+[0.678s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '1': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces

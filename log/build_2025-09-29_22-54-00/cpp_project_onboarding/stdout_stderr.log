@@ -1,0 +1,32 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found more_interfaces: 0.0.0 (/home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/concertserver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/customer.cpp.o[0m
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/src/server.hpp: No such file or directory
+    2 | #include [01;31m[K"more_interfaces/src/server.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/concertserver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:15:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   15 |     auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   15 |     auto result = client->async_send_request([01;31m[Krequest[m[K);
+      |                                              [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/customer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

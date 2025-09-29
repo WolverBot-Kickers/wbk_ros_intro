@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.055s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/concertserver.cpp.o[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/customer.cpp.o[0m
+[1.533s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.533s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[1.533s]    28 |     [01;31m[Krclcpp[m[K::spin(node);
+[1.533s]       |     [01;31m[K^~~~~~[m[K
+[1.925s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/customer.cpp.o] Error 1
+[1.926s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.926s] gmake[1]: *** Waiting for unfinished jobs....
+[1.996s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.100s] [ 75%] Built target server
+[2.101s] gmake: *** [Makefile:146: all] Error 2
+[2.102s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

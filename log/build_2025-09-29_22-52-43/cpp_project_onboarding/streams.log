@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/src/cpp_project_onboarding -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/cpp_project_onboarding
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.132s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.523s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.586s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.599s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.729s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.733s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.807s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.827s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.028s] -- Configuring done (1.0s)
+[1.036s] -- Generating done (0.0s)
+[1.042s] -- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[1.050s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/src/cpp_project_onboarding -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/cpp_project_onboarding
+[1.051s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[1.096s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/customer.cpp.o[0m
+[1.096s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/concertserver.cpp.o[0m
+[1.103s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.103s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.103s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.103s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.104s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.104s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.104s] compilation terminated.
+[1.104s] compilation terminated.
+[1.104s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/concertserver.cpp.o] Error 1
+[1.104s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/customer.cpp.o] Error 1
+[1.104s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[1.104s] gmake[1]: *** Waiting for unfinished jobs....
+[1.105s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.105s] gmake: *** [Makefile:146: all] Error 2
+[1.107s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

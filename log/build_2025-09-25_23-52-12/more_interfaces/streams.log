@@ -1,0 +1,88 @@
+[0.024s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20
+[0.123s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.133s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.141s] [  5%] Built target more_interfaces__cpp
+[0.146s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.171s] [ 27%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.173s] [ 36%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.174s] [ 44%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.174s] [ 61%] Built target more_interfaces__rosidl_typesupport_c
+[0.174s] [ 61%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.178s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.193s] [ 72%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.198s] [ 72%] Built target more_interfaces
+[0.217s] [ 75%] Built target more_interfaces__py
+[0.241s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.259s] [ 86%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.259s] [ 86%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[0.259s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.299s] running egg_info
+[0.310s] writing more_interfaces.egg-info/PKG-INFO
+[0.310s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.310s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.342s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.344s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.367s] [ 88%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.435s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[0.436s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[0.436s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so[0m
+[0.470s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[0.470s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[0.470s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:9:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+[1.932s]     9 | class ServerForConcerts : public [01;31m[Krclpp[m[K::Node
+[1.932s]       |                                  [01;31m[K^~~~~[m[K
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:9:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[1.932s]     9 | class ServerForConcerts : public rclpp::[01;31m[KNode[m[K
+[1.932s]       |                                         [01;31m[K^~~~[m[K
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[1.932s]    11 | [01;31m[Kpublic[m[K:
+[1.932s]       | [01;31m[K^~~~~~[m[K
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:10:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.932s]    10 | [01;36m[K{[m[K
+[1.932s]       | [01;36m[K^[m[K
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[1.932s]    41 | [01;31m[Kprivate[m[K:
+[1.932s]       | [01;31m[K^~~~~~~[m[K
+[1.932s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:44:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.932s]    44 | [01;31m[K}[m[K
+[1.932s]       | [01;31m[K^[m[K
+[1.933s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.933s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:49:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<ServerForConcerts>)[m[K’
+[1.933s]    49 |   [01;31m[Krclcpp::spin(std::make_shared<ServerForConcerts>())[m[K;
+[1.933s]       |   [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.934s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.934s]                  from [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:4[m[K:
+[1.934s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.934s]    58 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.934s]       | [01;36m[K^~~~[m[K
+[1.934s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KServerForConcerts[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[1.934s]    58 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.934s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.934s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(Node::SharedPtr)[m[K’
+[1.934s]    62 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.935s]       | [01;36m[K^~~~[m[K
+[1.935s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KServerForConcerts[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[1.935s]    62 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.935s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.216s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:60[m[K,
+[2.216s]                  from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+[2.217s]                  from [01m[K/usr/include/c++/13/memory:80[m[K,
+[2.217s]                  from [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:2[m[K:
+[2.217s] /usr/include/c++/13/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<ServerForConcerts>[m[K’:
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:591:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<ServerForConcerts, std::allocator<void>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:652:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<ServerForConcerts, std::allocator<void>, __gnu_cxx::_S_atomic>[m[K’
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:968:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = ServerForConcerts; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = ServerForConcerts; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = ServerForConcerts][m[K[m[K’
+[2.217s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = ServerForConcerts; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = ServerForConcerts][m[K[m[K’
+[2.217s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:49:51:[m[K   required from here
+[2.217s] [01m[K/usr/include/c++/13/ext/aligned_buffer.h:93:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KServerForConcerts[m[K’
+[2.217s]    93 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[2.217s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[2.217s] [01m[K/usr/include/c++/13/ext/aligned_buffer.h:93:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KServerForConcerts[m[K’
+[2.355s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[2.355s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+[2.355s] gmake: *** [Makefile:146: all] Error 2
+[2.357s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20

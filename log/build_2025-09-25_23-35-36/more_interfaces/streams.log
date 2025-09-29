@@ -1,0 +1,30 @@
+[0.026s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces
+[0.244s] -- The C compiler identification is GNU 13.3.0
+[0.350s] -- The CXX compiler identification is GNU 13.3.0
+[0.372s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.456s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.457s] -- Detecting C compile features
+[0.458s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.544s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.550s] -- Detecting CXX compile features
+[0.551s] -- Detecting CXX compile features - done
+[0.578s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.694s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.924s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.943s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.119s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.123s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.220s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.245s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.356s] [31mCMake Error at CMakeLists.txt:17 (rosidl_get_typesupport_target):
+[1.356s]   Unknown CMake command "rosidl_get_typesupport_target".
+[1.356s] 
+[1.356s] [0m
+[1.356s] -- Configuring incomplete, errors occurred!
+[1.362s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '1': /usr/bin/cmake /home/wbk/wbk_ros_intro/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/more_interfaces

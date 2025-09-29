@@ -1,0 +1,170 @@
+[0.010s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20
+[0.048s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.053s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.061s] [  5%] Built target more_interfaces__cpp
+[0.062s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.080s] [ 27%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.080s] [ 41%] Built target more_interfaces__rosidl_typesupport_c
+[0.080s] [ 44%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.080s] [ 52%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.082s] [ 61%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.082s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.098s] [ 69%] Built target more_interfaces
+[0.103s] [ 72%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.114s] [ 75%] Built target more_interfaces__py
+[0.132s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.150s] [ 91%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[0.150s] [ 91%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.151s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[0.196s] running egg_info
+[0.207s] writing more_interfaces.egg-info/PKG-INFO
+[0.207s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.207s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.234s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.235s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.253s] [ 97%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.640s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In lambda function:
+[1.641s] [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K269[m[K’ to ‘[01m[K13[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.641s]    26 |                 message.prices[0] = [01;35m[K269[m[K;
+[1.641s]       |                                     [01;35m[K^~~[m[K
+[3.115s] [100%] [32m[1mLinking CXX executable server[0m
+[3.299s] [100%] Built target server
+[3.308s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/more_interfaces -- -j20 -l20
+[3.316s] Invoking command in '/home/wbk/wbk_ros_intro/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/more_interfaces
+[3.323s] -- Install configuration: ""
+[3.325s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[3.325s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/msg/ConcertInfo.json
+[3.325s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.325s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.325s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__functions.c
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__functions.h
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__description.c
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__type_support.c
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__struct.h
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__type_support.h
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/concert_info.h
+[3.326s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[3.327s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[3.327s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[3.328s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[3.328s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.328s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.328s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.328s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.328s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__rosidl_typesupport_fastrtps_c.h
+[3.329s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.329s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.329s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.329s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.329s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.329s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__type_support.c
+[3.329s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__rosidl_typesupport_introspection_c.h
+[3.329s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.329s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[3.329s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[3.330s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/concert_info.hpp
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__traits.hpp
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__type_support.hpp
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__struct.hpp
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__builder.hpp
+[3.330s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.330s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.331s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[3.331s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.331s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.331s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.331s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.331s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces
+[3.331s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[3.331s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__type_support.cpp
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/concert_info__rosidl_typesupport_introspection_cpp.hpp
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.332s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[3.332s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[3.332s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[3.333s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_concert_info_s.c
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_concert_info.py
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py
+[3.334s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.366s] Listing '/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...
+[3.367s] Compiling '/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...
+[3.367s] Listing '/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...
+[3.367s] Compiling '/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py'...
+[3.367s] Compiling '/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_concert_info.py'...
+[3.370s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.370s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.370s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.371s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.371s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[3.371s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.371s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[3.371s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[3.372s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/msg/ConcertInfo.idl
+[3.372s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/msg/ConcertInfo.msg
+[3.372s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/lib/more_interfaces/server
+[3.373s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/more_interfaces/lib/more_interfaces/server" to ""
+[3.373s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[3.373s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[3.373s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[3.374s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[3.375s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/path.sh
+[3.375s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[3.375s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/local_setup.bash
+[3.375s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/local_setup.sh
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/package.dsv
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.376s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.377s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.378s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[3.379s] -- Installing: /home/wbk/wbk_ros_intro/install/more_interfaces/share/more_interfaces/package.xml
+[3.380s] Invoked command in '/home/wbk/wbk_ros_intro/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/more_interfaces

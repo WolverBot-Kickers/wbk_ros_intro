@@ -1,0 +1,8 @@
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/ConcertInfo.msg: No such file or directory
+    5 | #include [01;31m[K"more_interfaces/msg/ConcertInfo.msg"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

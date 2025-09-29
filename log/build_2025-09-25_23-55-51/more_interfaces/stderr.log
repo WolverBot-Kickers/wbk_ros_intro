@@ -1,0 +1,56 @@
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:42:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   42 |     rclcpp::Publisher<[01;31m[Kmore_interfaces[m[K::msg::ConcertInfo>::SharedPtr ServerForConcerts_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_interfaces[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:42:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |     rclcpp::Publisher<more_interfaces::msg::ConcertInfo[01;31m[K>[m[K::SharedPtr ServerForConcerts_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:42:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   42 |     rclcpp::Publisher<more_interfaces::msg::ConcertInfo>::[01;31m[KSharedPtr[m[K ServerForConcerts_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:42:69:[m[K [01;31m[Kerror: [m[K‘[01m[KServerForConcerts_[m[K’ does not name a type; did you mean ‘[01m[KServerForConcerts[m[K’?
+   42 |     rclcpp::Publisher<more_interfaces::msg::ConcertInfo>::SharedPtr [01;31m[KServerForConcerts_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[KServerForConcerts[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:44:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   44 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In constructor ‘[01m[KServerForConcerts::[01;32m[KServerForConcerts[m[K()[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[KServerForConcerts_[m[K’ was not declared in this scope; did you mean ‘[01m[KServerForConcerts[m[K’?
+   15 |             [01;31m[KServerForConcerts_[m[K = this->create_publisher<more_interfaces::msg::ConcertInfo>("concert_info");
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KServerForConcerts[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:15:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   15 |             ServerForConcerts_ = this->create_publisher<[01;31m[Kmore_interfaces[m[K::msg::ConcertInfo>("concert_info");
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[Krcl_interfaces[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:15:40:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |             ServerForConcerts_ = this->[01;31m[Kcreate_publisher<more_interfaces::msg::ConcertInfo>[m[K("concert_info");
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:15:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServerForConcerts::create_publisher<<expression error> >(const char [13])[m[K’
+   15 |             ServerForConcerts_ = [01;31m[Kthis->create_publisher<more_interfaces::msg::ConcertInfo>("concert_info")[m[K;
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:[m[K In lambda function:
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:19:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interfaces[m[K’ is not a class, namespace, or enumeration
+   19 |                 auto message = [01;31m[Kmore_interfaces[m[K::msg::ConcertInfo();
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:34:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmstd[m[K’ has not been declared
+   34 |                 [01;31m[Kmstd[m[K::endl;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/more_interfaces/src/server.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ServerForConcerts[m[K’ has no member named ‘[01m[KServerForConcerts_[m[K’; did you mean ‘[01m[KServerForConcerts[m[K’?
+   36 |                 this->[01;31m[KServerForConcerts_[m[K->publish(message);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[KServerForConcerts[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
