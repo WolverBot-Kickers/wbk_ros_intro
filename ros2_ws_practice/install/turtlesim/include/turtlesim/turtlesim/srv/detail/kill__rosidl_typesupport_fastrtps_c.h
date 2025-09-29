@@ -1,1 +1,0 @@
-/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h

@@ -1,1 +1,0 @@
-/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

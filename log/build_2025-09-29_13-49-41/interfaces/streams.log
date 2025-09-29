@@ -1,0 +1,71 @@
+[0.038s] Invoking command in '/home/wbk/wbk_ros_intro/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/interfaces
+[0.287s] -- The C compiler identification is GNU 13.3.0
+[0.438s] -- The CXX compiler identification is GNU 13.3.0
+[0.467s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.623s] -- Detecting CXX compiler ABI info
+[0.748s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.761s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.781s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.960s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.122s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.216s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.239s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.402s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.429s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.656s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.656s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.656s]   interfaces --arguments-file
+[1.657s]   /home/wbk/wbk_ros_intro/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[1.657s]   --output-dir
+[1.657s]   /home/wbk/wbk_ros_intro/build/interfaces/rosidl_adapter/interfaces
+[1.657s]   --output-file
+[1.657s]   /home/wbk/wbk_ros_intro/build/interfaces/rosidl_adapter/interfaces.idls)
+[1.657s]   returned error code 1:
+[1.657s] 
+[1.657s]   Error processing 'uint id' of 'interfaces/Ticket_Request': ''uint' is an
+[1.657s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[1.657s] 
+[1.657s]   Traceback (most recent call last):
+[1.657s] 
+[1.657s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.657s]     File "<frozen runpy>", line 88, in _run_code
+[1.657s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.657s]       sys.exit(main())
+[1.657s]                ^^^^^^
+[1.657s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.658s]       abs_idl_file = convert_to_idl(
+[1.658s]                      ^^^^^^^^^^^^^^^
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.658s]       return convert_srv_to_idl(
+[1.658s]              ^^^^^^^^^^^^^^^^^^^
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.658s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.658s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 860, in parse_service_string
+[1.658s]       request_message = parse_message_string(
+[1.658s]                         ^^^^^^^^^^^^^^^^^^^^^
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[1.658s]       Type(type_string, context_package_name=pkg_name),
+[1.658s]       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[1.658s]       super(Type, self).__init__(
+[1.658s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[1.658s]       raise InvalidResourceName(
+[1.658s] 
+[1.658s]   rosidl_adapter.parser.InvalidResourceName: 'uint' is an invalid message
+[1.658s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.659s] 
+[1.659s] Call Stack (most recent call first):
+[1.659s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.659s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.659s] 
+[1.659s] [0m
+[1.659s] -- Configuring incomplete, errors occurred!

@@ -1,1 +1,0 @@
-/home/wbk/wbk_ros_intro/ros2_ws_practice/build/turtlesim/rosidl_generator_cpp/turtlesim/action/detail/rotate_absolute__builder.hpp

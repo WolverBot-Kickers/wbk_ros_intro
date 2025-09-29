@@ -1,0 +1,1 @@
+Invoking command in '/home/wbk/wbk_ros_intro/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbk/wbk_ros_intro/ros2_ws/install/service_client:/opt/ros/jazzy /usr/bin/cmake /home/wbk/wbk_ros_intro/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wbk/wbk_ros_intro/install/interfaces
