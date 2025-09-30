@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.028s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.175s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.416s] -- Configuring done (0.4s)
+[0.437s] -- Generating done (0.0s)
+[0.441s] -- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[0.466s] [ 16%] [32mBuilding CXX object CMakeFiles/client1.dir/src/customer.cpp.o[0m
+[0.466s] [ 33%] [32mBuilding CXX object CMakeFiles/client2.dir/src/musician.cpp.o[0m
+[0.474s] [ 66%] Built target server
+[2.839s] [100%] [32m[1mLinking CXX executable client2[0m
+[2.840s] [100%] [32m[1mLinking CXX executable client1[0m
+[3.011s] [100%] Built target client1
+[3.011s] [100%] Built target client2
+[3.019s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[3.027s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[3.032s] -- Install configuration: ""
+[3.033s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/server
+[3.034s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client1
+[3.034s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client1" to ""
+[3.034s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client2
+[3.034s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client2" to ""
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/package_run_dependencies/cpp_project_onboarding
+[3.035s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/parent_prefix_path/cpp_project_onboarding
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.sh
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.dsv
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.sh
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.dsv
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.bash
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.sh
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.zsh
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.dsv
+[3.035s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.dsv
+[3.035s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/packages/cpp_project_onboarding
+[3.036s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig.cmake
+[3.036s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig-version.cmake
+[3.036s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.xml
+[3.036s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding

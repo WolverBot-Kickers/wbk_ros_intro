@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/musician.dir/src/musician.cpp.o[0m
+[ 66%] Built target customer
+[ 83%] Built target concertserver

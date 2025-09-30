@@ -1,0 +1,19 @@
+[0.026s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.103s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.288s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.384s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.512s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.515s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.678s]   ament_target_dependencies() the first argument must be a valid target name
+[0.678s] Call Stack (most recent call first):
+[0.678s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.678s] 
+[0.678s] [0m
+[0.678s] -- Configuring incomplete, errors occurred!
+[0.687s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.689s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

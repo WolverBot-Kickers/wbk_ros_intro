@@ -1,0 +1,20 @@
+[100%] Built target client1
+[100%] Built target server
+-- Install configuration: ""
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/server
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client1
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/package_run_dependencies/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/parent_prefix_path/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.bash
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.zsh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.dsv
+-- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/packages/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig.cmake
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig-version.cmake
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.xml

@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[ 16%] [32mBuilding CXX object CMakeFiles/musician.dir/src/musician.cpp.o[0m
+[ 50%] Built target concertserver
+[ 83%] Built target customer
+[100%] [32m[1mLinking CXX executable musician[0m
+[100%] Built target musician
+-- Install configuration: ""
+-- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/concertserver
+-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/concertserver" to ""
+-- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/customer
+-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/customer" to ""
+-- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/musician
+-- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/musician" to ""
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/package_run_dependencies/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/parent_prefix_path/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.bash
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.sh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.zsh
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.dsv
+-- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.dsv
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/packages/cpp_project_onboarding
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig.cmake
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig-version.cmake
+-- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.xml

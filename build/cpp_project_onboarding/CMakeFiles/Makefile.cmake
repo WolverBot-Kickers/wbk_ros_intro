@@ -602,6 +602,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/cpp_project_onboarding_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/server.dir/DependInfo.cmake"
-  "CMakeFiles/client.dir/DependInfo.cmake"
+  "CMakeFiles/concertserver.dir/DependInfo.cmake"
+  "CMakeFiles/customer.dir/DependInfo.cmake"
+  "CMakeFiles/musician.dir/DependInfo.cmake"
   )

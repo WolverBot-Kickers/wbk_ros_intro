@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.185s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.357s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.357s]   add_executable cannot create target "client" because another target with
+[0.357s]   the same name already exists.  The existing target is an executable created
+[0.357s]   in source directory "/home/wbk/wbk_ros_intro/src/cpp_project_onboarding".
+[0.357s]   See documentation for policy CMP0002 for more details.
+[0.357s] 
+[0.357s] [0m
+[0.422s] -- Configuring incomplete, errors occurred!
+[0.427s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.429s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

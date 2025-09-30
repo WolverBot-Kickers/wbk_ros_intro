@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.176s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.263s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.264s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.425s] -- Configuring done (0.4s)
+[0.436s] -- Generating done (0.0s)
+[0.439s] -- Build files have been written to: /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[0.469s] [ 50%] Built target server
+[0.469s] [100%] Built target client
+[0.477s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.484s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[0.490s] -- Install configuration: ""
+[0.490s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/server
+[0.491s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/client
+[0.491s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/package_run_dependencies/cpp_project_onboarding
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/parent_prefix_path/cpp_project_onboarding
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.sh
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.dsv
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.sh
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.dsv
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.bash
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.sh
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.zsh
+[0.492s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.dsv
+[0.492s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.dsv
+[0.493s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/packages/cpp_project_onboarding
+[0.493s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig.cmake
+[0.493s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig-version.cmake
+[0.493s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.xml
+[0.494s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding

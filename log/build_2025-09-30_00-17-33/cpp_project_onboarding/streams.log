@@ -1,0 +1,17 @@
+[0.008s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.046s] [ 16%] [32mBuilding CXX object CMakeFiles/musician.dir/src/musician.cpp.o[0m
+[0.049s] [ 33%] [32mBuilding CXX object CMakeFiles/customer.dir/src/customer.cpp.o[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/concertserver.dir/src/concertserver.cpp.o[0m
+[0.051s] [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/musician.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.051s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.051s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.051s] compilation terminated.
+[0.052s] gmake[2]: *** [CMakeFiles/musician.dir/build.make:76: CMakeFiles/musician.dir/src/musician.cpp.o] Error 1
+[0.052s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/musician.dir/all] Error 2
+[0.052s] gmake[1]: *** Waiting for unfinished jobs....
+[2.397s] [ 66%] [32m[1mLinking CXX executable concertserver[0m
+[2.409s] [ 83%] [32m[1mLinking CXX executable customer[0m
+[2.485s] [ 83%] Built target concertserver
+[2.496s] [ 83%] Built target customer
+[2.497s] gmake: *** [Makefile:146: all] Error 2
+[2.499s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20

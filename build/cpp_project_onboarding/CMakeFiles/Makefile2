@@ -63,8 +63,9 @@ CMAKE_BINARY_DIR = /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/server.dir/all
-all: CMakeFiles/client.dir/all
+all: CMakeFiles/concertserver.dir/all
+all: CMakeFiles/customer.dir/all
+all: CMakeFiles/musician.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,8 +75,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_project_onboarding_uninstall.dir/clean
-clean: CMakeFiles/server.dir/clean
-clean: CMakeFiles/client.dir/clean
+clean: CMakeFiles/concertserver.dir/clean
+clean: CMakeFiles/customer.dir/clean
+clean: CMakeFiles/musician.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -131,56 +133,82 @@ CMakeFiles/cpp_project_onboarding_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_project_onboarding_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/server.dir
+# Target rules for target CMakeFiles/concertserver.dir
 
 # All Build rule for target.
-CMakeFiles/server.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles --progress-num=3,4 "Built target server"
-.PHONY : CMakeFiles/server.dir/all
+CMakeFiles/concertserver.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles --progress-num=1,2 "Built target concertserver"
+.PHONY : CMakeFiles/concertserver.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/server.dir/rule: cmake_check_build_system
+CMakeFiles/concertserver.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/concertserver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 0
-.PHONY : CMakeFiles/server.dir/rule
+.PHONY : CMakeFiles/concertserver.dir/rule
 
 # Convenience name for target.
-server: CMakeFiles/server.dir/rule
-.PHONY : server
+concertserver: CMakeFiles/concertserver.dir/rule
+.PHONY : concertserver
 
 # clean rule for target.
-CMakeFiles/server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
-.PHONY : CMakeFiles/server.dir/clean
+CMakeFiles/concertserver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/clean
+.PHONY : CMakeFiles/concertserver.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/client.dir
+# Target rules for target CMakeFiles/customer.dir
 
 # All Build rule for target.
-CMakeFiles/client.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles --progress-num=1,2 "Built target client"
-.PHONY : CMakeFiles/client.dir/all
+CMakeFiles/customer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles --progress-num=3,4 "Built target customer"
+.PHONY : CMakeFiles/customer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/client.dir/rule: cmake_check_build_system
+CMakeFiles/customer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/customer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 0
-.PHONY : CMakeFiles/client.dir/rule
+.PHONY : CMakeFiles/customer.dir/rule
 
 # Convenience name for target.
-client: CMakeFiles/client.dir/rule
-.PHONY : client
+customer: CMakeFiles/customer.dir/rule
+.PHONY : customer
 
 # clean rule for target.
-CMakeFiles/client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
-.PHONY : CMakeFiles/client.dir/clean
+CMakeFiles/customer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/clean
+.PHONY : CMakeFiles/customer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/musician.dir
+
+# All Build rule for target.
+CMakeFiles/musician.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/musician.dir/build.make CMakeFiles/musician.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/musician.dir/build.make CMakeFiles/musician.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles --progress-num=5,6 "Built target musician"
+.PHONY : CMakeFiles/musician.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/musician.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/musician.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wbk/wbk_ros_intro/build/cpp_project_onboarding/CMakeFiles 0
+.PHONY : CMakeFiles/musician.dir/rule
+
+# Convenience name for target.
+musician: CMakeFiles/musician.dir/rule
+.PHONY : musician
+
+# clean rule for target.
+CMakeFiles/musician.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/musician.dir/build.make CMakeFiles/musician.dir/clean
+.PHONY : CMakeFiles/musician.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

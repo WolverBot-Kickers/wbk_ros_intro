@@ -18,7 +18,7 @@ upcoming concert, giving them updates on the sale as it occurs.
 int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
 
-    std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("customer");
+    std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("concertserver");
 
     /*required to interact with the custom interface
         rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr service =
