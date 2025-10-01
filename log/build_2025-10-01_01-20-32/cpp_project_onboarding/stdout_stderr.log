@@ -1,0 +1,13 @@
+[ 33%] Built target musician
+[ 50%] [32mBuilding CXX object CMakeFiles/customersubscriber.dir/src/customer.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.o[0m
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:[m[K In constructor ‘[01m[KConcertServerPublisher::[01;32m[KConcertServerPublisher[m[K()[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:38:50:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   38 |                 timer_ = this->create_wall_timer([01;31m[K500ms[m[K, timer_callback);
+      |                                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/concertserverpublisher.dir/build.make:76: CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/concertserverpublisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable customersubscriber[0m
+[ 83%] Built target customersubscriber
+gmake: *** [Makefile:146: all] Error 2

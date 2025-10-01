@@ -198,30 +198,30 @@ cpp_project_onboarding_uninstall/fast:
 .PHONY : cpp_project_onboarding_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named concertserver
+# Target rules for targets named concertserverpublisher
 
 # Build rule for target.
-concertserver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 concertserver
-.PHONY : concertserver
+concertserverpublisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 concertserverpublisher
+.PHONY : concertserverpublisher
 
 # fast build rule for target.
-concertserver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/build
-.PHONY : concertserver/fast
+concertserverpublisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserverpublisher.dir/build.make CMakeFiles/concertserverpublisher.dir/build
+.PHONY : concertserverpublisher/fast
 
 #=============================================================================
-# Target rules for targets named customer
+# Target rules for targets named customersubscriber
 
 # Build rule for target.
-customer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 customer
-.PHONY : customer
+customersubscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 customersubscriber
+.PHONY : customersubscriber
 
 # fast build rule for target.
-customer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/build
-.PHONY : customer/fast
+customersubscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customersubscriber.dir/build.make CMakeFiles/customersubscriber.dir/build
+.PHONY : customersubscriber/fast
 
 #=============================================================================
 # Target rules for targets named musician
@@ -241,7 +241,7 @@ src/concertserver.o: src/concertserver.cpp.o
 
 # target to build an object file
 src/concertserver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/src/concertserver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserverpublisher.dir/build.make CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.o
 .PHONY : src/concertserver.cpp.o
 
 src/concertserver.i: src/concertserver.cpp.i
@@ -249,7 +249,7 @@ src/concertserver.i: src/concertserver.cpp.i
 
 # target to preprocess a source file
 src/concertserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/src/concertserver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserverpublisher.dir/build.make CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.i
 .PHONY : src/concertserver.cpp.i
 
 src/concertserver.s: src/concertserver.cpp.s
@@ -257,7 +257,7 @@ src/concertserver.s: src/concertserver.cpp.s
 
 # target to generate assembly for a file
 src/concertserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserver.dir/build.make CMakeFiles/concertserver.dir/src/concertserver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concertserverpublisher.dir/build.make CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.s
 .PHONY : src/concertserver.cpp.s
 
 src/customer.o: src/customer.cpp.o
@@ -265,7 +265,7 @@ src/customer.o: src/customer.cpp.o
 
 # target to build an object file
 src/customer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/src/customer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customersubscriber.dir/build.make CMakeFiles/customersubscriber.dir/src/customer.cpp.o
 .PHONY : src/customer.cpp.o
 
 src/customer.i: src/customer.cpp.i
@@ -273,7 +273,7 @@ src/customer.i: src/customer.cpp.i
 
 # target to preprocess a source file
 src/customer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/src/customer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customersubscriber.dir/build.make CMakeFiles/customersubscriber.dir/src/customer.cpp.i
 .PHONY : src/customer.cpp.i
 
 src/customer.s: src/customer.cpp.s
@@ -281,7 +281,7 @@ src/customer.s: src/customer.cpp.s
 
 # target to generate assembly for a file
 src/customer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/customer.dir/build.make CMakeFiles/customer.dir/src/customer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customersubscriber.dir/build.make CMakeFiles/customersubscriber.dir/src/customer.cpp.s
 .PHONY : src/customer.cpp.s
 
 src/musician.o: src/musician.cpp.o
@@ -323,8 +323,8 @@ help:
 	@echo "... test"
 	@echo "... cpp_project_onboarding_uninstall"
 	@echo "... uninstall"
-	@echo "... concertserver"
-	@echo "... customer"
+	@echo "... concertserverpublisher"
+	@echo "... customersubscriber"
 	@echo "... musician"
 	@echo "... src/concertserver.o"
 	@echo "... src/concertserver.i"

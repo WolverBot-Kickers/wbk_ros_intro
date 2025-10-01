@@ -1,0 +1,19 @@
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:[m[K In constructor ‘[01m[KConcertServerPublisher::[01;32m[KConcertServerPublisher[m[K()[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/concertserver.cpp:38:50:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   38 |                 timer_ = this->create_wall_timer([01;31m[K500ms[m[K, timer_callback);
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:[m[K In constructor ‘[01m[KConcertServerPublisher::[01;32m[KConcertServerPublisher[m[K()[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+   23 |                 [01;31m[Ksubscription[m[K =
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[Ksubscription_[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:49:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   49 |     rclcpp::spin([01;31m[Knode[m[K);
+      |                  [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/concertserverpublisher.dir/build.make:76: CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/concertserverpublisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/customersubscriber.dir/build.make:76: CMakeFiles/customersubscriber.dir/src/customer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/customersubscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

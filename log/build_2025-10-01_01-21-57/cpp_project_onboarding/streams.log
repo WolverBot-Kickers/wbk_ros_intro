@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[0.055s] [ 50%] Built target customersubscriber
+[0.055s] [ 66%] Built target musician
+[0.057s] [ 83%] [32mBuilding CXX object CMakeFiles/concertserverpublisher.dir/src/concertserver.cpp.o[0m
+[2.873s] [100%] [32m[1mLinking CXX executable concertserverpublisher[0m
+[2.980s] [100%] Built target concertserverpublisher
+[2.988s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wbk/wbk_ros_intro/build/cpp_project_onboarding -- -j20 -l20
+[2.995s] Invoking command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding
+[3.001s] -- Install configuration: ""
+[3.001s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/concertserverpublisher
+[3.002s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/concertserverpublisher" to ""
+[3.002s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/customersubscriber
+[3.002s] -- Set non-toolchain portion of runtime path of "/home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/customersubscriber" to ""
+[3.003s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/lib/cpp_project_onboarding/musician
+[3.004s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/package_run_dependencies/cpp_project_onboarding
+[3.004s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/parent_prefix_path/cpp_project_onboarding
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.sh
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/ament_prefix_path.dsv
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.sh
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/environment/path.dsv
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.bash
+[3.004s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.sh
+[3.005s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.zsh
+[3.005s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/local_setup.dsv
+[3.005s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.dsv
+[3.005s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/ament_index/resource_index/packages/cpp_project_onboarding
+[3.005s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig.cmake
+[3.005s] -- Up-to-date: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/cmake/cpp_project_onboardingConfig-version.cmake
+[3.005s] -- Installing: /home/wbk/wbk_ros_intro/install/cpp_project_onboarding/share/cpp_project_onboarding/package.xml
+[3.006s] Invoked command in '/home/wbk/wbk_ros_intro/build/cpp_project_onboarding' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wbk/wbk_ros_intro/build/cpp_project_onboarding

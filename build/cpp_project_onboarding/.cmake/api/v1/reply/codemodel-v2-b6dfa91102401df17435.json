@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-9571d4ca0e3ff2e9e265.json",
+					"jsonFile" : "directory-.-ff92842d18015533477a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -47,9 +47,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "concertserver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-concertserver-c6a3672dc788c1ae8f33.json",
-					"name" : "concertserver",
+					"id" : "concertserverpublisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-concertserverpublisher-9f72eb0d89ee12b681e7.json",
+					"name" : "concertserverpublisher",
 					"projectIndex" : 0
 				},
 				{
@@ -61,15 +61,15 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "customer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-customer-c25d21e57e2add8bc7fe.json",
-					"name" : "customer",
+					"id" : "customersubscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customersubscriber-adbe1a3f488f6aaa0161.json",
+					"name" : "customersubscriber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "musician::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-musician-2d1fe77b064c289374bc.json",
+					"jsonFile" : "target-musician-11a7fa855658ba09f9c1.json",
 					"name" : "musician",
 					"projectIndex" : 0
 				},

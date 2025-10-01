@@ -1,0 +1,23 @@
+[ 50%] Built target musician
+[ 50%] [32mBuilding CXX object CMakeFiles/customersubscriber.dir/src/customer.cpp.o[0m
+[ 83%] Built target concertserverpublisher
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:49:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ was not declared in this scope
+   49 |     rclcpp::spin(std::make_shared<[01;31m[KMinimalSubscriber[m[K>());
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:49:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   49 |     rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/wbk/wbk_ros_intro/src/cpp_project_onboarding/src/customer.cpp:49:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |     rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/customersubscriber.dir/build.make:76: CMakeFiles/customersubscriber.dir/src/customer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/customersubscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
